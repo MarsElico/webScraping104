@@ -1,0 +1,35 @@
+配色一
+green_to_blue_gradients = generate_gradient_colors("#0062B0", "#7CD3F7", "#DCF1F3", abs(end - start))
+
+配色三
+green_to_blue_gradients = generate_gradient_colors("#2E3092", "#00AEEF", "#DCF1F3", abs(end - start))
+
+配色四
+green_to_blue_gradients = generate_gradient_colors("#EC1C24", "#FCB664", "#FDEF4B", abs(end - start))
+
+配色五
+green_to_blue_gradients = generate_gradient_colors("#EB008B", "#FCB664", "#FDEF4B", abs(end - start))
+
+配色六
+green_to_blue_gradients = generate_gradient_colors("#EB008B", "#00B8CD", "#C6EAFB", abs(end - start))
+
+配色七
+green_to_blue_gradients = generate_gradient_colors("#2E3091", "#00B8CD", "#C6EAFB", abs(end - start))
+
+配色8
+green_to_blue_gradients = generate_gradient_colors("#2E3091", "#00B8CD", "#DEE0B7", abs(end - start))
+
+配色9
+green_to_blue_gradients = generate_gradient_colors("#D9D198", "#00B8CD", "#E0B8CE", abs(end - start))
+
+配色10
+green_to_blue_gradients = generate_gradient_colors("#00A550", "#00B8CD", "#D9D198", abs(end - start))
+
+配色11
+green_to_blue_gradients = generate_gradient_colors("#007647", "#00B8CD", "#D9D198", abs(end - start))
+
+配色12 還原
+green_to_blue_gradients = generate_gradient_colors("#6341ff", "#40DCF1", "#E0F0E5", abs(end - start))
+
+配色13
+green_to_blue_gradients = generate_gradient_colors("#0057A8", "#40DCF1", "#E0F0E5", abs(end - start))
