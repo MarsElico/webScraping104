@@ -50,7 +50,7 @@ def moneyname(name):
 
 
 def beauty_moneyname(df_):
-    """把第一欄的 '美金(USD) 美金(USD)' 改成 '美金(USD)'"""
+    """把第一欄的 "美金(USD) 美金(USD)" 改成 "美金(USD)""""
     money = [moneyname(i) for i in df_["幣別"]]
     money.insert(0, "幣別")
     df_["幣別"] = pandas.Series(money)

@@ -38,7 +38,7 @@ def replaces(df):
 
 
 def replace(df, search: str, replace: str):
-    df.loc[df['col'].str.contains(search, case=False, regex=True), 'col'] = replace
+    df.loc[df["col"].str.contains(search, case=False, regex=True), "col"] = replace
 
 
 def analysis(text):
@@ -62,8 +62,8 @@ def sorted_by_count(array):
         unique.add(element)
     for element in unique:
         sorted_df.append([element, array.count(element)])
-    sorted_df = pandas.DataFrame(sorted_df, columns=['Item', 'Count'])
-    sorted_df = sorted_df.sort_values(by='Count', ascending=False)
+    sorted_df = pandas.DataFrame(sorted_df, columns=["Item", "Count"])
+    sorted_df = sorted_df.sort_values(by="Count", ascending=False)
     return sorted_df
 
 

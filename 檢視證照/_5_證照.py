@@ -9,7 +9,7 @@
 """
 # 導入模組所在資料夾，避免以下錯誤：ModuleNotFoundError: No module named '文字雲'
 import sys
-sys.path.append('T:\Programing_RightPath\爬蟲_期末_0607\檢視專業技能分佈')
+sys.path.append("T:\Programing_RightPath\爬蟲_期末_0607\檢視專業技能分佈")
 
 # 匯入模組
 import pandas
@@ -28,7 +28,7 @@ if __name__ == '__main__':
 
     # ValueError: 5 is not in range
     # 刪除包含 "技術士" 的行
-    rows_to_delete = sorted_skills_df[sorted_skills_df['col'].str.contains('技術士', na=False)].index
+    rows_to_delete = sorted_skills_df[sorted_skills_df["col"].str.contains("技術士", na=False)].index
     sorted_skills_df.drop(rows_to_delete, inplace=True)
     sorted_skills_df = sorted_skills_df.reset_index(drop=True)
 

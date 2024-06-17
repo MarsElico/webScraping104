@@ -6,18 +6,18 @@ import my_pyplot
 def invoke(date, open, high, low, close):
     # 日期、開盤價、最高價、最低價和收盤價
     data = {
-        'Date': date,
-        'Open': open,
-        'High': high,
-        'Low': low,
-        'Close': close
+        "Date": date,
+        "Open": open,
+        "High": high,
+        "Low": low,
+        "Close": close
     }
     df = pandas.DataFrame(data)
-    # df['Date'] = pandas.to_datetime(df['Date'])
+    # df["Date"] = pandas.to_datetime(df["Date"])
 
     # fig, ax = pyplot.subplots(label="日線圖")
     for i, row in df.iterrows():
-        color = 'r' if row['Close'] > row['Open'] else 'g'
+        color = "r" if row["Close"] > row["Open'] else 'g'
         # 繪製柱狀體
         height = abs(row['Close'] - row['Open'])
         bottom = min(row['Close'], row['Open'])

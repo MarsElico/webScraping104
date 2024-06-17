@@ -11,7 +11,7 @@ fig.show()
 
 # 畫水平長條圖，類似pyplot.barh
 df = pandas.DataFrame([["Yoasobi", 150], ["米津玄師", 100], ["5pb.", 200]], columns=["Student", "Python Score"])
-fig = px.bar(df, x="Python Score", y="Student", title="Final Exam", orientation='h')
+fig = px.bar(df, x="Python Score", y="Student", title="Final Exam", orientation="h")
 fig.show()
 
 # 畫堆疊長條圖

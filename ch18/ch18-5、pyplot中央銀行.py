@@ -1,6 +1,6 @@
 # ch18-2、中央銀行美元兌台幣.py 延續
 # data_list[:, 1] => TypeError: list indices must be integers or slices, not tuple
-# data_list[:][1] => ['2024/03/21', '31.832']
+# data_list[:][1] => ["2024/03/21", "31.832"]
 # type(data_list) => <class 'list'>
 # type(data_list[0]) => <class 'list'>
 # 所以只能轉成numpy陣列才能正常讀取資料，轉完後print如下：

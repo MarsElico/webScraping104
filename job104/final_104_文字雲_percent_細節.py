@@ -110,7 +110,7 @@ if __name__ == '__main__':
 
     # 套用漸變綠色到藍色
     green_gradients = [
-        '#6341ff', '#5b54ff', '#4b82ff', '#3caaff', '#2ed4fe',
+        "#6341ff", "#5b54ff", "#4b82ff", "#3caaff", '#2ed4fe',
         '#40dcf1', '#56e5e3', '#68edd6', '#7df6c8', '#93ffba'
     ]
 

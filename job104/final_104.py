@@ -22,9 +22,9 @@ def draw(csv_file_name, title):
     df = df.reset_index(drop=True)
 
     # 安全的改變資料類型: str -> float
-    df['rate'] = df['rate'].str.replace("%", "").astype(float)
-    print(type(df['rate'][0]))
-    print(df['rate'][0])
+    df["rate"] = df["rate"].str.replace("%", "").astype(float)
+    print(type(df["rate"][0]))
+    print(df["rate"][0])
 
     # 簡化語言檔案
     if csv_file_name == "104job-python-language.csv":

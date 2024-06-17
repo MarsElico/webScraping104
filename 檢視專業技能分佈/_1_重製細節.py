@@ -2,7 +2,8 @@
 import numpy
 import pandas
 from matplotlib import pyplot
-from 文字雲 import read_csv, data_cleaning, sorted_by_value, savefig
+from 檢視專業技能分佈.文字雲 import read_csv, data_cleaning, sorted_by_value, savefig
+import matplotlib.colors as mcolors
 
 
 def 計算個別XX技能有YY個應徵者(df):
@@ -37,10 +38,7 @@ def pie_template(sorted_df, title, start, end, dpi, autopct, format_rate, extrus
     # 支援繁中zh-tw
     pyplot.rcParams["font.family"] = ["Microsoft JhengHei"]
     # 套用漸變綠色到藍色
-    green_gradients = [
-        '#6341ff', '#5b54ff', '#4b82ff', '#3caaff', '#2ed4fe',
-        '#40dcf1', '#56e5e3', '#68edd6', '#7df6c8', '#93ffba'
-    ]
+    green_to_blue_gradients = generate_gradient_colors("#6341ff", "#40DCF1", "#93ffba", abs(end - start))
     # 往左偏移0.2，往下偏移0.1
     fig, ax = pyplot.subplots()
     pos = ax.get_position()
@@ -55,14 +53,22 @@ def pie_template(sorted_df, title, start, end, dpi, autopct, format_rate, extrus
     extrusion = numpy.zeros(end-start)  # [0.01, 0.0, 0.0, 0.0]
     extrusion[0] = extrusion_first
     # 設定空標籤，使其不顯示標籤
-    pie, _, autotexts = pyplot.pie(rate, autopct=autopct, colors=green_gradients[::-1], explode=extrusion)
+    pie, _, autotexts = pyplot.pie(rate, autopct=autopct, colors=green_to_blue_gradients[::-1], explode=extrusion, startangle=90)
     # 把最後一個字改成白色字，加強對比度
-    autotexts[-1].set_color('white')
+    autotexts[-1].set_color("white")
     pyplot.title(title, fontsize=16, color="#1e1f22")
     # 顯示指定標籤
     pyplot.legend(pie, col, bbox_to_anchor=(1.05, 0.88), title="圖例", framealpha=0.0)
     savefig(title + ".png", dpi=dpi)
     pyplot.show()
+
+
+def generate_gradient_colors(start_color, medium_color, end_color, num_colors):
+    # 生成從0到1的分段比例
+    gradient_points = numpy.linspace(0, 1, num_colors)
+    # 定義顏色分段點，0到0.5是start到medium，0.5到1是medium到end
+    cmap = mcolors.LinearSegmentedColormap.from_list("gradient", [start_color, medium_color, end_color])
+    return [mcolors.to_hex(cmap(point)) for point in gradient_points]
 
 
 if __name__ == '__main__':

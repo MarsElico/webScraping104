@@ -7,7 +7,7 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 """
 # 導入模組所在資料夾，避免以下錯誤：ModuleNotFoundError: No module named '文字雲'
 import sys
-sys.path.append('T:\Programing_RightPath\爬蟲_期末_0607\檢視專業技能分佈')
+sys.path.append("T:\Programing_RightPath\爬蟲_期末_0607\檢視專業技能分佈")
 
 # 匯入模組
 import pandas

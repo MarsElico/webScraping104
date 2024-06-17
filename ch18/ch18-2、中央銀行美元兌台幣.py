@@ -58,8 +58,8 @@ def beauty(file_name_):
     with open(file_name_, "r", encoding="big5") as f:
         csv_ = csv.reader(f)
         list_ = list(csv_)
-        list_ = list(filter(lambda x: x != ['標題(日期)', 'NTD/USD'], list_))
-        list_.insert(0, ['標題(日期)', 'NTD/USD'])
+        list_ = list(filter(lambda x: x != ["標題(日期)", "NTD/USD"], list_))
+        list_.insert(0, ["標題(日期)", "NTD/USD"])
         f.close()
     with open(file_name_, "w", encoding="big5", newline="") as f:
         csv_ = csv.writer(f)
