@@ -8,3 +8,7 @@
 *.jpg filter=lfs diff=lfs merge=lfs -text
 *.svg filter=lfs diff=lfs merge=lfs -text
 *.[[:space:]]* filter=lfs diff=lfs merge=lfs -text
+就業輔導[[:space:]]-[[:space:]]複製.afpub filter=lfs diff=lfs merge=lfs -text
+_ppt2[[:space:]]104[[:space:]]for面試/python[[:space:]]104人力銀行台中職缺分析[[:space:]]-[[:space:]]配色用.afpub filter=lfs diff=lfs merge=lfs -text
+_ppt2[[:space:]]104[[:space:]]for面試/python[[:space:]]104人力銀行台中職缺分析[[:space:]]-[[:space:]]印刷配色用A4.afpub filter=lfs diff=lfs merge=lfs -text
+_ppt2[[:space:]]104[[:space:]]for面試/python[[:space:]]104人力銀行台中職缺分析[[:space:]]-[[:space:]]印刷用A4.afpub filter=lfs diff=lfs merge=lfs -text
