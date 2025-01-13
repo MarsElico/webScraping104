@@ -1,55 +1,68 @@
-# job_analyzer.py
+# _3_job_analyzer.py
 import pandas as pd
 import re
 
 
+def clean_keyword(keyword):
+    """清理關鍵字，保留特殊格式"""
+    # 移除正則表達式的特殊字符，但保留某些特殊格式
+    clean = (keyword.split('(?:')[0]  # 移除匹配條件部分
+             .replace('\\b', '')  # 移除單詞邊界標記
+             .rstrip('(?:\\s|$|,|\\.|;)'))  # 移除結尾的匹配條件
+
+    # 特殊處理帶有 .js 的關鍵字
+    if '\\.' in keyword and 'js' in keyword.lower():
+        clean = clean.replace('\\.', '.')
+
+    return clean
+
+
 def extract_keywords(text):
     """從文本中提取關鍵技術詞彙"""
-    # 定義關鍵字列表，使用更精確的匹配模式
-    # 使用 \b 表示單詞邊界，避免部分匹配
-    # 對於特殊字符使用 (?:) 進行分組但不捕獲
-    keywords = [
-        # 程式語言（注意順序：先匹配更長的詞）
-        'JavaScript', 'TypeScript',  # 需要在 Java 前面
-        'Java(?:\s|$|,|\.|;)',  # Java 後面需要是空白、結尾、逗號、句號或分號
-        'Python(?:\s|$|,|\.|;)',
-        'C\+\+',
+    # 完整匹配的關鍵字（不需要正則表達式）
+    exact_keywords = {
+        'Node.js',
+        'Next.js',
+        'Nuxt.js',
+        'Express.js',
+        'React.js',
+        'Vue.js',
+        'C++',
         'C#',
-        'PHP(?:\s|$|,|\.|;)',
-        'Ruby(?:\s|$|,|\.|;)',
-        'Swift(?:\s|$|,|\.|;)',
-        'Kotlin(?:\s|$|,|\.|;)',
-        'Go(?:\s|$|,|\.|;)',
-        'Node\.js',
-        'Rust(?:\s|$|,|\.|;)',
-        'Scala(?:\s|$|,|\.|;)',
-        'R(?:\s|$|,|\.|;)',
+        'ASP.NET',
+        'TCP/IP',
+        'CI/CD',
+    }
 
-        # 前端技術
-        'React(?:\.js|\s|$|,|\.|;)',  # 避免與 ReactNative 混淆
-        'Vue(?:\.js|\s|$|,|\.|;)',
-        'Angular(?:\s|$|,|\.|;)',
-        'HTML(?:\s|$|,|\.|;)',
-        'CSS(?:\s|$|,|\.|;)',
+    # 需要正則匹配的關鍵字
+    regex_keywords = [
+        'JavaScript',
+        'TypeScript',
+        'Python',
+        'Java(?!\S)',  # 否定前瞻，確保後面不是其他字符
+        'PHP',
+        'Ruby',
+        'Swift',
+        'Kotlin',
+        'Go(?!\S)',
+        'Rust',
+        'Scala',
+        'React(?!\S)',
+        'Vue(?!\S)',
+        'Angular',
+        'HTML',
+        'CSS',
         'jQuery',
         'Bootstrap',
-        'Sass(?:\s|$|,|\.|;)',
-        'Redux(?:\s|$|,|\.|;)',
+        'Sass',
+        'Redux',
         'Webpack',
         'ES6',
-        'Next\.js',
-        'Nuxt\.js',
-
-        # 後端技術
         'Django',
         'Flask',
         'Laravel',
-        'Spring(?:\s|Boot|\s|$|,|\.|;)',
-        'Express(?:\.js|\s|$|,|\.|;)',
+        'Spring',
         'Rails',
-        'ASP\.NET',
-
-        # 資料庫
         'MySQL',
         'PostgreSQL',
         'MongoDB',
@@ -59,52 +72,45 @@ def extract_keywords(text):
         'MariaDB',
         'NoSQL',
         'GraphQL',
-        'SQL(?:\s|$|,|\.|;)',  # SQL 需要在其他 SQL 資料庫後面
-
-        # 開發工具和版本控制
-        'Git(?:\s|$|,|\.|;)',
+        'SQL(?!\S)',
+        'Git',
         'Docker',
         'Kubernetes',
-        'CI/CD',
         'Jenkins',
         'AWS',
         'Azure',
         'GCP',
         'Linux',
         'Unix',
-
-        # 網路和協議
-        'TCP/IP',
         'HTTP',
-        'REST(?:\s|API|\s|$|,|\.|;)',
-        'API(?:\s|$|,|\.|;)',
+        'REST',
+        'API',
         'WebSocket',
         'SOAP',
-
-        # 其他技術
-        'AI(?:\s|$|,|\.|;)',
-        'ML(?:\s|$|,|\.|;)',
+        'AI(?!\S)',
+        'ML(?!\S)',
         'Deep Learning',
         'DevOps',
         'Agile',
         'Scrum'
     ]
 
-    found_keywords = []
-    text = ' ' + text + ' '  # 添加首尾空格以便匹配單詞邊界
+    found_keywords = set()  # 使用集合避免重複
 
-    for keyword in keywords:
-        pattern = rf'\b{keyword}'
+    # 1. 先檢查完整匹配的關鍵字
+    for keyword in exact_keywords:
+        if keyword.lower() in text.lower():
+            found_keywords.add(keyword)
+
+    # 2. 再檢查需要正則匹配的關鍵字
+    for keyword in regex_keywords:
+        pattern = rf'\b{keyword}\b'
         if re.search(pattern, text, re.IGNORECASE):
-            # 移除正則表達式中的特殊字符和匹配條件
-            clean_keyword = (keyword.split('(?:')[0]
-                             .replace('\\b', '')
-                             .replace('\\', '')
-                             .rstrip('(?:\\s|$|,|\\.|;)'))
-            if clean_keyword not in found_keywords:  # 避免重複
-                found_keywords.append(clean_keyword)
+            # 保存原始匹配的文本
+            match = re.search(pattern, text, re.IGNORECASE).group()
+            found_keywords.add(match)
 
-    return ','.join(found_keywords)
+    return ','.join(sorted(found_keywords))  # 排序以保持穩定輸出
 
 
 def determine_job_tag(content, types):
