@@ -6,17 +6,18 @@ from selenium.common.exceptions import TimeoutException, NoSuchElementException
 import pandas as pd
 import time
 import os
+from web_scraper_test測試 import print_element, print_body
 
 
 class JobScraper:
     def __init__(self):
         # 設定 Chrome 選項
         options = webdriver.ChromeOptions()
-        # options.add_argument('--headless')  # 無頭模式
-        # options.add_argument('--disable-gpu')
-        # options.add_argument('--no-sandbox')
-        # options.add_argument('--disable-dev-shm-usage')
-        # options.add_argument('--window-size=1920,1080')
+        options.add_argument('--headless')  # 無頭模式
+        options.add_argument('--disable-gpu')
+        options.add_argument('--no-sandbox')
+        options.add_argument('--disable-dev-shm-usage')
+        options.add_argument('--window-size=1920,1080')
 
         # 初始化 driver
         self.driver = webdriver.Chrome(options=options)
@@ -41,15 +42,26 @@ class JobScraper:
 
     def get_job_links(self):
         """獲取所有職位連結"""
+        items = self.driver.find_elements(By.CSS_SELECTOR, "div.info-container")
+        # print("共有幾個工作=", len(items))  # DEBUG: 測試用
+
+        # 抓取工作內容網址（job-href）
         job_links = []
-        job_elements = self.driver.find_elements(By.CSS_SELECTOR, "a.info-job__text")
-        for element in job_elements:
-            href = element.get_attribute('href')
-            if href:
+        for item in items:
+            job = item.find_element(By.TAG_NAME, "a")
+            # print(job is not None)  # DEBUG: 測試用
+            # print_element(item)  # DEBUG: 測試用
+            # print_element(job)  # DEBUG: 測試用
+            if job is not None:
                 # 轉換網址格式
-                job_id = href.split('/')[-1].split('?')[0]
-                converted_url = f"https://www.104.com.tw/job/{job_id}?jobsource=joblist_search"
-                job_links.append(converted_url)
+                href = job.get_attribute('href')
+                job_links.append(href)
+                print(job.text)  # 工作名稱網頁標題
+                print(job_links[-1])  # 連結
+            else:
+                print("該筆欄位空白")
+        if len(job_links) == 0:
+            print("錯誤！找不到工作")
         return job_links
 
     def extract_job_detail(self, url):
@@ -60,8 +72,9 @@ class JobScraper:
 
             # 取得工作標題
             job_title = self.wait.until(
-                EC.presence_of_element_located((By.CSS_SELECTOR, "h1.job-header__title"))
+                EC.presence_of_element_located((By.TAG_NAME, "h1"))
             ).text
+            # print(job_title)  # DEBUG: 測試用
 
             # 獲取各個部分的內容
             try:
@@ -125,6 +138,7 @@ class JobScraper:
             # 爬取每個職位的詳細信息
             jobs_data = []
             for i, link in enumerate(job_links, 1):
+                # if i > 5: break  # DEBUG: 測試用
                 print(f"Scraping job {i}/{len(job_links)}: {link}")
                 job_data = self.extract_job_detail(link)
                 if job_data:
@@ -169,3 +183,4 @@ if __name__ == "__main__":
     ]
     for url, filename in zip(urls, filenames):
         scrape_104_jobs(url, filename)
+        print(f"保存到{filename}")
