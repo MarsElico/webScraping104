@@ -1,3 +1,5 @@
+# 使用chrome擴充套件web scraper爬取的資料，透過這個處理
+# 相關資料在"1. webscraper爬取.txt"
 import pandas as pd
 from executor import execute
 

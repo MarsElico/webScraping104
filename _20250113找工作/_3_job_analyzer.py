@@ -1,4 +1,5 @@
 # _3_job_analyzer.py
+# 記得先刪除空白欄位，否則報錯
 import pandas as pd
 import re
 

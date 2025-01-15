@@ -68,7 +68,7 @@ class JobScraper:
         """提取單個職位的詳細信息"""
         try:
             self.driver.get(url)
-            time.sleep(1)  # 等待頁面加載
+            time.sleep(2)  # 等待頁面加載
 
             # 取得工作標題
             job_title = self.wait.until(
@@ -126,7 +126,7 @@ class JobScraper:
         try:
             # 訪問頁面
             self.driver.get(url)
-            time.sleep(1)  # 等待初始加載
+            time.sleep(3)  # 等待初始加載
 
             # 滾動頁面以加載更多內容
             self.scroll_to_bottom()
@@ -178,7 +178,7 @@ if __name__ == "__main__":
         # "https://www.104.com.tw/jobs/search/?jobcat=2009003007&jobsource=joblist_search&area=6001008000&page=1",
         # "https://www.104.com.tw/jobs/search/?jobcat=2007001004&jobsource=joblist_search&area=6001008000&page=1",
         # "https://www.104.com.tw/jobs/search/?jobcat=2007001003&jobsource=joblist_search&area=6001008000&page=1",
-        "https://www.104.com.tw/jobs/search/?jobcat=2009003005&jobsource=joblist_search&area=6001008000&page=1",
+        # "https://www.104.com.tw/jobs/search/?jobcat=2009003005&jobsource=joblist_search&area=6001008000&page=1",
         "https://www.104.com.tw/jobs/search/?jobcat=2007001022&jobsource=joblist_search&area=6001008000&page=1",
         "https://www.104.com.tw/jobs/search/?jobcat=2007002002&jobsource=joblist_search&area=6001008000&page=1",
         "https://www.104.com.tw/jobs/search/?jobcat=2007001010&jobsource=joblist_search&area=6001008000&page=1",
@@ -190,7 +190,7 @@ if __name__ == "__main__":
         "https://www.104.com.tw/jobs/search/?jobcat=2007002005&jobsource=joblist_search&area=6001008000&page=1",
         "https://www.104.com.tw/jobs/search/?jobcat=2007001020&jobsource=joblist_search&area=6001008000&page=1",
         "https://www.104.com.tw/jobs/search/?jobcat=2007001014&jobsource=joblist_search&area=6001008000&page=1",
-        "https://www.104.com.tw/jobs/search/?jobcat=2007001006&jobsource=joblist_search&area=6001008000&page=1",
+        # "https://www.104.com.tw/jobs/search/?jobcat=2007001006&jobsource=joblist_search&area=6001008000&page=1",
         "https://www.104.com.tw/jobs/search/?jobcat=2007001013&jobsource=joblist_search&area=6001008000&page=1",
         "https://www.104.com.tw/jobs/search/?jobcat=2007002003&jobsource=joblist_search&area=6001008000&page=1",
         "https://www.104.com.tw/jobs/search/?jobcat=2013001015&jobsource=joblist_search&area=6001008000&page=1",
@@ -206,7 +206,7 @@ if __name__ == "__main__":
         # "軟韌體測試工程師.csv",
         # "軟體工程師.csv",
         # "通訊軟體工程師.csv",
-        "測試人員.csv",
+        # "測試人員.csv",
         "資料工程師.csv",
         "資料庫管理人員.csv",
         "資訊助理.csv",
@@ -218,7 +218,7 @@ if __name__ == "__main__":
         "網路管理工程師.csv",
         "AI工程師.csv",
         "Android工程師.csv",
-        "Internet程式設計師.csv",
+        # "Internet程式設計師.csv",
         "iOS工程師.csv",
         "MIS程式設計師.csv",
         "UI設計師.csv",
