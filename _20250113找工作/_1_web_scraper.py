@@ -68,7 +68,7 @@ class JobScraper:
         """提取單個職位的詳細信息"""
         try:
             self.driver.get(url)
-            time.sleep(2)  # 等待頁面加載
+            time.sleep(1)  # 等待頁面加載
 
             # 取得工作標題
             job_title = self.wait.until(
@@ -126,7 +126,7 @@ class JobScraper:
         try:
             # 訪問頁面
             self.driver.get(url)
-            time.sleep(3)  # 等待初始加載
+            time.sleep(1)  # 等待初始加載
 
             # 滾動頁面以加載更多內容
             self.scroll_to_bottom()
@@ -170,16 +170,59 @@ def scrape_104_jobs(url, output_filename):
 # 使用示例
 if __name__ == "__main__":
     urls = [
-        "https://www.104.com.tw/jobs/search/?jobcat=2007001017&jobsource=joblist_search&area=6001008000&page=1",
+        # "https://www.104.com.tw/jobs/search/?jobcat=2007001017&jobsource=joblist_search&area=6001008000&page=1",
         # "https://www.104.com.tw/jobs/search/?jobcat=2007001007&jobsource=joblist_search&area=6001008000&page=1",
         # "https://www.104.com.tw/jobs/search/?jobcat=2007001009&jobsource=joblist_search&area=6001008000&page=1",
         # "https://www.104.com.tw/jobs/search/?jobcat=2007001015&jobsource=joblist_search&area=6001008000&page=1",
+        # "https://www.104.com.tw/jobs/search/?jobcat=2007001016&jobsource=joblist_search&area=6001008000&page=1",
+        # "https://www.104.com.tw/jobs/search/?jobcat=2009003007&jobsource=joblist_search&area=6001008000&page=1",
+        # "https://www.104.com.tw/jobs/search/?jobcat=2007001004&jobsource=joblist_search&area=6001008000&page=1",
+        # "https://www.104.com.tw/jobs/search/?jobcat=2007001003&jobsource=joblist_search&area=6001008000&page=1",
+        "https://www.104.com.tw/jobs/search/?jobcat=2009003005&jobsource=joblist_search&area=6001008000&page=1",
+        "https://www.104.com.tw/jobs/search/?jobcat=2007001022&jobsource=joblist_search&area=6001008000&page=1",
+        "https://www.104.com.tw/jobs/search/?jobcat=2007002002&jobsource=joblist_search&area=6001008000&page=1",
+        "https://www.104.com.tw/jobs/search/?jobcat=2007001010&jobsource=joblist_search&area=6001008000&page=1",
+        "https://www.104.com.tw/jobs/search/?jobcat=2007002007&jobsource=joblist_search&area=6001008000&page=1",
+        "https://www.104.com.tw/jobs/search/?jobcat=2004002005&jobsource=joblist_search&area=6001008000&page=1",
+        "https://www.104.com.tw/jobs/search/?jobcat=2007001008&jobsource=joblist_search&area=6001008000&page=1",
+        "https://www.104.com.tw/jobs/search/?jobcat=2007001012&jobsource=joblist_search&area=6001008000&page=1",
+        "https://www.104.com.tw/jobs/search/?jobcat=2013001006&jobsource=joblist_search&area=6001008000&page=1",
+        "https://www.104.com.tw/jobs/search/?jobcat=2007002005&jobsource=joblist_search&area=6001008000&page=1",
+        "https://www.104.com.tw/jobs/search/?jobcat=2007001020&jobsource=joblist_search&area=6001008000&page=1",
+        "https://www.104.com.tw/jobs/search/?jobcat=2007001014&jobsource=joblist_search&area=6001008000&page=1",
+        "https://www.104.com.tw/jobs/search/?jobcat=2007001006&jobsource=joblist_search&area=6001008000&page=1",
+        "https://www.104.com.tw/jobs/search/?jobcat=2007001013&jobsource=joblist_search&area=6001008000&page=1",
+        "https://www.104.com.tw/jobs/search/?jobcat=2007002003&jobsource=joblist_search&area=6001008000&page=1",
+        "https://www.104.com.tw/jobs/search/?jobcat=2013001015&jobsource=joblist_search&area=6001008000&page=1",
+        "https://www.104.com.tw/jobs/search/?jobcat=2013001016&jobsource=joblist_search&area=6001008000&page=1",
     ]
+
     filenames = [
-        "全端工程師.csv",
+        # "全端工程師.csv",
         # "系統分析師.csv",
         # "其他資訊專業人員.csv",
         # "前端工程師.csv",
+        # "後端工程師.csv",
+        # "軟韌體測試工程師.csv",
+        # "軟體工程師.csv",
+        # "通訊軟體工程師.csv",
+        "測試人員.csv",
+        "資料工程師.csv",
+        "資料庫管理人員.csv",
+        "資訊助理.csv",
+        "資訊設備管制人員.csv",
+        "遊戲企劃.csv",
+        "電玩程式設計師.csv",
+        "演算法工程師.csv",
+        "網頁設計師.csv",
+        "網路管理工程師.csv",
+        "AI工程師.csv",
+        "Android工程師.csv",
+        "Internet程式設計師.csv",
+        "iOS工程師.csv",
+        "MIS程式設計師.csv",
+        "UI設計師.csv",
+        "UX設計師.csv",
     ]
     for url, filename in zip(urls, filenames):
         scrape_104_jobs(url, filename)
