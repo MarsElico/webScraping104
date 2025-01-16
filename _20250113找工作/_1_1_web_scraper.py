@@ -1,3 +1,5 @@
+from datetime import datetime
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -224,6 +226,23 @@ if __name__ == "__main__":
         "UI設計師.csv",
         "UX設計師.csv",
     ]
+    # 印出開始時間
+    start_datetime = datetime.now()
+    start_time = start_datetime.strftime("%Y:%m:%d %H:%M:%S")
+    print(f"{start_time}開始爬取104工作資訊")
+
+    # 主程式
     for url, filename in zip(urls, filenames):
         scrape_104_jobs(url, filename)
         print(f"保存到{filename}")
+
+    # 印出結束時間
+    end_datetime = datetime.now()
+    end_time = end_datetime.strftime("%Y:%m:%d %H:%M:%S")
+    print(f"{end_time}爬取結束")
+
+    # 計算耗時
+    duration = end_time - start_datetime
+    hours, remainder = divmod(duration.total_seconds(), 3600)
+    minutes, seconds = divmod(remainder, 60)
+    print(f"本次爬取耗時{int(hours)}時{int(minutes)}分{int(seconds)}秒")

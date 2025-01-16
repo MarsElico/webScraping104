@@ -1,0 +1,347 @@
+{
+  "total_jobs": 3272,
+  "skill_pairs": [
+    {
+      "combination": [
+        "CSS",
+        "HTML"
+      ],
+      "count": 415,
+      "percentage": 12.68
+    },
+    {
+      "combination": [
+        "HTML",
+        "JavaScript"
+      ],
+      "count": 379,
+      "percentage": 11.58
+    },
+    {
+      "combination": [
+        "CSS",
+        "JavaScript"
+      ],
+      "count": 357,
+      "percentage": 10.91
+    },
+    {
+      "combination": [
+        "Linux",
+        "UX 設計師"
+      ],
+      "count": 257,
+      "percentage": 7.85
+    },
+    {
+      "combination": [
+        "Git",
+        "JavaScript"
+      ],
+      "count": 249,
+      "percentage": 7.61
+    },
+    {
+      "combination": [
+        "ASP.NET",
+        "C#"
+      ],
+      "count": 243,
+      "percentage": 7.43
+    },
+    {
+      "combination": [
+        "CSS",
+        "Git"
+      ],
+      "count": 228,
+      "percentage": 6.97
+    },
+    {
+      "combination": [
+        "API",
+        "Git"
+      ],
+      "count": 215,
+      "percentage": 6.57
+    },
+    {
+      "combination": [
+        "C#",
+        "軟體工程師"
+      ],
+      "count": 215,
+      "percentage": 6.57
+    },
+    {
+      "combination": [
+        "JavaScript",
+        "jQuery"
+      ],
+      "count": 214,
+      "percentage": 6.54
+    },
+    {
+      "combination": [
+        "Git",
+        "HTML"
+      ],
+      "count": 210,
+      "percentage": 6.42
+    },
+    {
+      "combination": [
+        "HTML",
+        "jQuery"
+      ],
+      "count": 188,
+      "percentage": 5.75
+    },
+    {
+      "combination": [
+        "Git",
+        "MySQL"
+      ],
+      "count": 188,
+      "percentage": 5.75
+    },
+    {
+      "combination": [
+        "JavaScript",
+        "MySQL"
+      ],
+      "count": 179,
+      "percentage": 5.47
+    },
+    {
+      "combination": [
+        "API",
+        "JavaScript"
+      ],
+      "count": 177,
+      "percentage": 5.41
+    },
+    {
+      "combination": [
+        "CSS",
+        "jQuery"
+      ],
+      "count": 177,
+      "percentage": 5.41
+    },
+    {
+      "combination": [
+        "JavaScript",
+        "軟體工程師"
+      ],
+      "count": 176,
+      "percentage": 5.38
+    },
+    {
+      "combination": [
+        "MySQL",
+        "PHP"
+      ],
+      "count": 166,
+      "percentage": 5.07
+    },
+    {
+      "combination": [
+        "C#",
+        "JavaScript"
+      ],
+      "count": 155,
+      "percentage": 4.74
+    },
+    {
+      "combination": [
+        "JavaScript",
+        "全端工程師"
+      ],
+      "count": 149,
+      "percentage": 4.55
+    }
+  ],
+  "skill_triples": [
+    {
+      "combination": [
+        "CSS",
+        "HTML",
+        "JavaScript"
+      ],
+      "count": 281,
+      "percentage": 8.59
+    },
+    {
+      "combination": [
+        "CSS",
+        "Git",
+        "HTML"
+      ],
+      "count": 172,
+      "percentage": 5.26
+    },
+    {
+      "combination": [
+        "CSS",
+        "Git",
+        "JavaScript"
+      ],
+      "count": 152,
+      "percentage": 4.65
+    },
+    {
+      "combination": [
+        "HTML",
+        "JavaScript",
+        "jQuery"
+      ],
+      "count": 151,
+      "percentage": 4.61
+    },
+    {
+      "combination": [
+        "Git",
+        "HTML",
+        "JavaScript"
+      ],
+      "count": 151,
+      "percentage": 4.61
+    },
+    {
+      "combination": [
+        "CSS",
+        "HTML",
+        "jQuery"
+      ],
+      "count": 144,
+      "percentage": 4.4
+    },
+    {
+      "combination": [
+        "CSS",
+        "JavaScript",
+        "jQuery"
+      ],
+      "count": 127,
+      "percentage": 3.88
+    },
+    {
+      "combination": [
+        "API",
+        "CSS",
+        "HTML"
+      ],
+      "count": 117,
+      "percentage": 3.58
+    },
+    {
+      "combination": [
+        "API",
+        "CSS",
+        "JavaScript"
+      ],
+      "count": 111,
+      "percentage": 3.39
+    },
+    {
+      "combination": [
+        "API",
+        "Git",
+        "JavaScript"
+      ],
+      "count": 107,
+      "percentage": 3.27
+    },
+    {
+      "combination": [
+        "API",
+        "HTML",
+        "JavaScript"
+      ],
+      "count": 106,
+      "percentage": 3.24
+    },
+    {
+      "combination": [
+        "CSS",
+        "HTML",
+        "MySQL"
+      ],
+      "count": 103,
+      "percentage": 3.15
+    },
+    {
+      "combination": [
+        "CSS",
+        "Git",
+        "jQuery"
+      ],
+      "count": 93,
+      "percentage": 2.84
+    },
+    {
+      "combination": [
+        "CSS",
+        "HTML",
+        "PHP"
+      ],
+      "count": 93,
+      "percentage": 2.84
+    },
+    {
+      "combination": [
+        "HTML",
+        "JavaScript",
+        "MySQL"
+      ],
+      "count": 93,
+      "percentage": 2.84
+    },
+    {
+      "combination": [
+        "ASP.NET",
+        "C#",
+        "軟體工程師"
+      ],
+      "count": 91,
+      "percentage": 2.78
+    },
+    {
+      "combination": [
+        "ASP.NET",
+        "C#",
+        "JavaScript"
+      ],
+      "count": 90,
+      "percentage": 2.75
+    },
+    {
+      "combination": [
+        "API",
+        "CSS",
+        "Git"
+      ],
+      "count": 90,
+      "percentage": 2.75
+    },
+    {
+      "combination": [
+        "CSS",
+        "JavaScript",
+        "Node.js"
+      ],
+      "count": 89,
+      "percentage": 2.72
+    },
+    {
+      "combination": [
+        "HTML",
+        "JavaScript",
+        "Node.js"
+      ],
+      "count": 88,
+      "percentage": 2.69
+    }
+  ]
+}
