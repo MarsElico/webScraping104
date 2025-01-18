@@ -1,0 +1,226 @@
+工作類別技能需求分析報告
+==================================================
+
+
+全端工程師 類別的主要技能需求：
+--------------------------------------------------
+JavaScript: 149次
+Git: 118次
+CSS: 112次
+MySQL: 107次
+HTML: 90次
+C#: 82次
+API: 81次
+Node.js: 81次
+PHP: 73次
+Python: 57次
+jQuery: 55次
+Linux: 53次
+ASP.NET: 50次
+PostgreSQL: 43次
+Vue.js: 40次
+
+AI 工程師 類別的主要技能需求：
+--------------------------------------------------
+Python: 128次
+Git: 91次
+JavaScript: 75次
+Linux: 75次
+HTML: 63次
+CSS: 61次
+API: 59次
+C#: 56次
+C++: 56次
+AWS: 55次
+MySQL: 53次
+AI: 48次
+CI/CD: 37次
+SQL: 36次
+Docker: 34次
+
+軟體工程師 類別的主要技能需求：
+--------------------------------------------------
+C#: 215次
+JavaScript: 176次
+HTML: 127次
+MySQL: 126次
+ASP.NET: 107次
+CSS: 102次
+Python: 101次
+C++: 98次
+Git: 98次
+SQL: 96次
+jQuery: 83次
+PHP: 74次
+Oracle: 62次
+API: 60次
+CI/CD: 50次
+
+UX 設計師 類別的主要技能需求：
+--------------------------------------------------
+Linux: 257次
+MySQL: 72次
+TCP/IP: 67次
+Git: 63次
+JavaScript: 52次
+Python: 49次
+PHP: 48次
+CSS: 47次
+API: 43次
+Docker: 39次
+HTML: 38次
+AWS: 38次
+C++: 36次
+CI/CD: 31次
+GCP: 27次
+
+網頁設計師 類別的主要技能需求：
+--------------------------------------------------
+JavaScript: 87次
+C#: 82次
+ASP.NET: 77次
+CSS: 70次
+HTML: 70次
+MySQL: 51次
+Git: 50次
+jQuery: 48次
+API: 41次
+JQuery: 29次
+SQL: 24次
+Javascript: 22次
+Oracle: 21次
+Python: 21次
+PHP: 20次
+
+資料庫管理人員 類別的主要技能需求：
+--------------------------------------------------
+SQL: 7次
+MySQL: 7次
+JavaScript: 5次
+Oracle: 5次
+ASP.NET: 5次
+C#: 5次
+HTML: 4次
+MongoDB: 4次
+Spring: 3次
+jQuery: 3次
+Git: 3次
+API: 2次
+PHP: 2次
+css: 2次
+html: 2次
+
+軟韌體測試工程師 類別的主要技能需求：
+--------------------------------------------------
+Python: 25次
+C#: 25次
+JavaScript: 24次
+Git: 22次
+HTML: 17次
+TCP/IP: 16次
+MySQL: 15次
+API: 14次
+Linux: 13次
+CSS: 13次
+PostgreSQL: 10次
+Agile: 9次
+jQuery: 8次
+Docker: 7次
+C++: 7次
+
+UI 設計師 類別的主要技能需求：
+--------------------------------------------------
+CSS: 96次
+HTML: 89次
+JavaScript: 74次
+Git: 43次
+jQuery: 35次
+API: 24次
+Node.js: 19次
+Angular: 19次
+C#: 18次
+ES6: 18次
+MySQL: 14次
+Linux: 14次
+Vue.js: 14次
+React: 14次
+Sass: 13次
+
+Android 工程師 類別的主要技能需求：
+--------------------------------------------------
+Git: 61次
+API: 56次
+Kotlin: 47次
+JavaScript: 44次
+HTML: 43次
+CSS: 35次
+C#: 33次
+Java: 26次
+Linux: 21次
+SWIFT: 20次
+Python: 18次
+MySQL: 18次
+C++: 13次
+Swift: 13次
+TCP/IP: 12次
+
+前端工程師 類別的主要技能需求：
+--------------------------------------------------
+CSS: 12次
+HTML: 12次
+Git: 11次
+JavaScript: 10次
+API: 9次
+jQuery: 8次
+Bootstrap: 7次
+Sass: 7次
+Vue: 7次
+React: 7次
+Javascript: 6次
+Node.js: 4次
+ES6: 4次
+Typescript: 3次
+Redux: 2次
+
+iOS 工程師 類別的主要技能需求：
+--------------------------------------------------
+Swift: 11次
+HTTP: 10次
+SWIFT: 10次
+Linux: 10次
+Git: 9次
+API: 8次
+spring: 5次
+C++: 4次
+C#: 3次
+Python: 3次
+SQL: 3次
+JavaScript: 2次
+GIT: 2次
+CI/CD: 2次
+AWS: 2次
+
+後端工程師 類別的主要技能需求：
+--------------------------------------------------
+Git: 5次
+SQL: 4次
+CSS: 4次
+HTML: 4次
+Python: 3次
+API: 2次
+ES6: 2次
+JavaScript: 2次
+Node.js: 2次
+SASS: 2次
+HTTP: 2次
+
+演算法工程師 類別的主要技能需求：
+--------------------------------------------------
+C++: 8次
+Python: 8次
+C#: 4次
+deep learning: 4次
+
+網路管理工程師 類別的主要技能需求：
+--------------------------------------------------
+TCP/IP: 2次
