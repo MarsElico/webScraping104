@@ -94,8 +94,8 @@ def save_visualization(category_skills: Dict[str, List[Tuple[str, int]]], output
     fig.suptitle('工作類別技能需求分析', fontsize=16, y=0.95)
 
     for ax, (category, skills) in zip(axes, category_skills.items()):
-        skill_names = [skill[0] for skill in skills]
-        skill_counts = [skill[1] for skill in skills]
+        skill_names = [skill[0] for skill in skills][::-1]  # 倒序
+        skill_counts = [skill[1] for skill in skills][::-1]  # 倒序
 
         bars = ax.barh(range(len(skill_names)), skill_counts)
         ax.set_title(f'{category}', pad=20)
