@@ -1,0 +1,52 @@
+{
+  "軟體工程師": {
+    "C#": 18,
+    "ASP.NET": 13,
+    "PostgreSQL": 9,
+    "SQL": 9,
+    "HTML": 8,
+    "C++": 8,
+    "MySQL": 5,
+    "Git": 2,
+    "Http": 2,
+    "JavaScript": 2,
+    "Oracle": 2
+  },
+  "AI 工程師": {
+    "C#": 4,
+    "Git": 3,
+    "MongoDB": 3,
+    "PostgreSQL": 3,
+    "SQLite": 3,
+    "noSQL": 3
+  },
+  "UI 設計師": {
+    "Git": 4,
+    "C#": 2,
+    "C++": 2,
+    "Http": 2,
+    "HTTP": 2,
+    "PostgreSQL": 2,
+    "Spring": 2,
+    "Oracle": 2
+  },
+  "UX 設計師": {
+    "Linux": 5,
+    "API": 2,
+    "CI/CD": 2,
+    "GCP": 2,
+    "Git": 2,
+    "PHP": 2,
+    "Redis": 2,
+    "SQL": 2,
+    "C#": 2,
+    "C++": 2
+  },
+  "全端工程師": {
+    "C#": 4,
+    "C++": 3,
+    "ASP.NET": 2,
+    "Git": 2,
+    "Linux": 2
+  }
+}

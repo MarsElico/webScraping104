@@ -1,0 +1,347 @@
+{
+  "total_jobs": 181,
+  "skill_pairs": [
+    {
+      "combination": [
+        "C#",
+        "軟體工程師"
+      ],
+      "count": 18,
+      "percentage": 9.94
+    },
+    {
+      "combination": [
+        "ASP.NET",
+        "C#"
+      ],
+      "count": 15,
+      "percentage": 8.29
+    },
+    {
+      "combination": [
+        "ASP.NET",
+        "軟體工程師"
+      ],
+      "count": 13,
+      "percentage": 7.18
+    },
+    {
+      "combination": [
+        "C#",
+        "PostgreSQL"
+      ],
+      "count": 11,
+      "percentage": 6.08
+    },
+    {
+      "combination": [
+        "C#",
+        "SQL"
+      ],
+      "count": 10,
+      "percentage": 5.52
+    },
+    {
+      "combination": [
+        "PostgreSQL",
+        "軟體工程師"
+      ],
+      "count": 9,
+      "percentage": 4.97
+    },
+    {
+      "combination": [
+        "SQL",
+        "軟體工程師"
+      ],
+      "count": 9,
+      "percentage": 4.97
+    },
+    {
+      "combination": [
+        "HTML",
+        "軟體工程師"
+      ],
+      "count": 8,
+      "percentage": 4.42
+    },
+    {
+      "combination": [
+        "C#",
+        "Git"
+      ],
+      "count": 8,
+      "percentage": 4.42
+    },
+    {
+      "combination": [
+        "C#",
+        "C++"
+      ],
+      "count": 8,
+      "percentage": 4.42
+    },
+    {
+      "combination": [
+        "ASP.NET",
+        "SQL"
+      ],
+      "count": 8,
+      "percentage": 4.42
+    },
+    {
+      "combination": [
+        "C++",
+        "軟體工程師"
+      ],
+      "count": 8,
+      "percentage": 4.42
+    },
+    {
+      "combination": [
+        "Git",
+        "PostgreSQL"
+      ],
+      "count": 7,
+      "percentage": 3.87
+    },
+    {
+      "combination": [
+        "ASP.NET",
+        "PostgreSQL"
+      ],
+      "count": 7,
+      "percentage": 3.87
+    },
+    {
+      "combination": [
+        "C#",
+        "MySQL"
+      ],
+      "count": 6,
+      "percentage": 3.31
+    },
+    {
+      "combination": [
+        "MySQL",
+        "PostgreSQL"
+      ],
+      "count": 6,
+      "percentage": 3.31
+    },
+    {
+      "combination": [
+        "Git",
+        "SQL"
+      ],
+      "count": 5,
+      "percentage": 2.76
+    },
+    {
+      "combination": [
+        "Linux",
+        "UX 設計師"
+      ],
+      "count": 5,
+      "percentage": 2.76
+    },
+    {
+      "combination": [
+        "ASP.NET",
+        "MySQL"
+      ],
+      "count": 5,
+      "percentage": 2.76
+    },
+    {
+      "combination": [
+        "MySQL",
+        "軟體工程師"
+      ],
+      "count": 5,
+      "percentage": 2.76
+    }
+  ],
+  "skill_triples": [
+    {
+      "combination": [
+        "ASP.NET",
+        "C#",
+        "軟體工程師"
+      ],
+      "count": 13,
+      "percentage": 7.18
+    },
+    {
+      "combination": [
+        "ASP.NET",
+        "C#",
+        "SQL"
+      ],
+      "count": 8,
+      "percentage": 4.42
+    },
+    {
+      "combination": [
+        "ASP.NET",
+        "SQL",
+        "軟體工程師"
+      ],
+      "count": 8,
+      "percentage": 4.42
+    },
+    {
+      "combination": [
+        "C#",
+        "SQL",
+        "軟體工程師"
+      ],
+      "count": 8,
+      "percentage": 4.42
+    },
+    {
+      "combination": [
+        "ASP.NET",
+        "C#",
+        "PostgreSQL"
+      ],
+      "count": 7,
+      "percentage": 3.87
+    },
+    {
+      "combination": [
+        "ASP.NET",
+        "PostgreSQL",
+        "軟體工程師"
+      ],
+      "count": 7,
+      "percentage": 3.87
+    },
+    {
+      "combination": [
+        "C#",
+        "PostgreSQL",
+        "軟體工程師"
+      ],
+      "count": 7,
+      "percentage": 3.87
+    },
+    {
+      "combination": [
+        "C#",
+        "MySQL",
+        "PostgreSQL"
+      ],
+      "count": 6,
+      "percentage": 3.31
+    },
+    {
+      "combination": [
+        "C#",
+        "Git",
+        "PostgreSQL"
+      ],
+      "count": 5,
+      "percentage": 2.76
+    },
+    {
+      "combination": [
+        "ASP.NET",
+        "C#",
+        "MySQL"
+      ],
+      "count": 5,
+      "percentage": 2.76
+    },
+    {
+      "combination": [
+        "ASP.NET",
+        "MySQL",
+        "PostgreSQL"
+      ],
+      "count": 5,
+      "percentage": 2.76
+    },
+    {
+      "combination": [
+        "ASP.NET",
+        "MySQL",
+        "軟體工程師"
+      ],
+      "count": 5,
+      "percentage": 2.76
+    },
+    {
+      "combination": [
+        "C#",
+        "MySQL",
+        "軟體工程師"
+      ],
+      "count": 5,
+      "percentage": 2.76
+    },
+    {
+      "combination": [
+        "MySQL",
+        "PostgreSQL",
+        "軟體工程師"
+      ],
+      "count": 5,
+      "percentage": 2.76
+    },
+    {
+      "combination": [
+        "C#",
+        "Git",
+        "Http"
+      ],
+      "count": 4,
+      "percentage": 2.21
+    },
+    {
+      "combination": [
+        "AI 工程師",
+        "C#",
+        "Git"
+      ],
+      "count": 3,
+      "percentage": 1.66
+    },
+    {
+      "combination": [
+        "AI 工程師",
+        "C#",
+        "MongoDB"
+      ],
+      "count": 3,
+      "percentage": 1.66
+    },
+    {
+      "combination": [
+        "AI 工程師",
+        "C#",
+        "PostgreSQL"
+      ],
+      "count": 3,
+      "percentage": 1.66
+    },
+    {
+      "combination": [
+        "AI 工程師",
+        "C#",
+        "SQLite"
+      ],
+      "count": 3,
+      "percentage": 1.66
+    },
+    {
+      "combination": [
+        "AI 工程師",
+        "C#",
+        "noSQL"
+      ],
+      "count": 3,
+      "percentage": 1.66
+    }
+  ]
+}
