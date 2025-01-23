@@ -150,8 +150,8 @@ class JobScraper:
             df = pd.DataFrame(jobs_data)
 
             # 確保輸出目錄存在
-            os.makedirs('webscraper', exist_ok=True)
-            output_path = os.path.join('webscraper', output_filename)
+            os.makedirs('url', exist_ok=True)
+            output_path = os.path.join('url', output_filename)
 
             # 保存為 CSV，使用 utf-8-sig 編碼以支持中文
             df.to_csv(output_path, index=False, encoding='utf-8-sig')

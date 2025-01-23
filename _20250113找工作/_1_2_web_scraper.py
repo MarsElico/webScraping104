@@ -181,8 +181,8 @@ class JobScraper:
             # 保存數據
             if jobs_data:
                 df = pd.DataFrame(jobs_data)
-                os.makedirs('webscraper', exist_ok=True)
-                output_path = os.path.join('webscraper', output_filename)
+                os.makedirs('url', exist_ok=True)
+                output_path = os.path.join('url', output_filename)
                 df.to_csv(output_path, index=False, encoding='utf-8-sig')
                 self.logger.info(f"數據已保存到 {output_path}")
             else:
