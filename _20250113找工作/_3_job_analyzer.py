@@ -184,7 +184,9 @@ def process_jobs_data(df):
 def process_csv(file_path):
     """處理CSV文件"""
     # 讀取原始CSV
+    # df = df.astype(str)。修正AttributeError: 'float' object has no attribute 'astype'
     df = pd.read_csv(file_path, encoding='utf-8')
+    df = df.astype(str)
     # 處理數據
     result = process_jobs_data(df)
     return result

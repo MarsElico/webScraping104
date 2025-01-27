@@ -64,7 +64,7 @@ class Job104Scraper:
                 'experience': 'div.job-requirement-table div:nth-of-type(3) div.t3',
                 'education': 'div.job-requirement-table div:nth-of-type(4) div.t3',
                 'tools': 'div.job-requirement-table div:nth-of-type(5) div.t3',
-                'skills': 'div.job-requirement-table div:nth-of-type(6) div.t3',
+                'skill': 'div.job-requirement-table div:nth-of-type(6) div.t3',
                 'salary': 'div.salary',
                 'content': 'p.mb-5',
                 'other_requirements': 'div.job-requirement-table div:nth-of-type(7) div.t3'

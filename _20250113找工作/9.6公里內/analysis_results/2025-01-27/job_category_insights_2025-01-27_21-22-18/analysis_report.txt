@@ -1,0 +1,164 @@
+工作類別技能需求分析報告
+==================================================
+
+
+軟體工程師 類別的主要技能需求：
+--------------------------------------------------
+C#: 46次
+JavaScript: 33次
+MySQL: 28次
+C++: 26次
+ASP.NET: 24次
+Python: 23次
+HTML: 23次
+CSS: 22次
+PHP: 16次
+AWS: 12次
+Git: 12次
+SQL: 12次
+CI/CD: 11次
+jQuery: 11次
+Oracle: 11次
+
+UI 設計師 類別的主要技能需求：
+--------------------------------------------------
+CSS: 12次
+HTML: 10次
+JavaScript: 10次
+Oracle: 9次
+MySQL: 8次
+PostgreSQL: 8次
+Git: 7次
+jQuery: 6次
+C#: 5次
+Sass: 4次
+Linux: 3次
+Node.js: 3次
+Angular: 3次
+ES6: 3次
+TypeScript: 3次
+
+UX 設計師 類別的主要技能需求：
+--------------------------------------------------
+Linux: 41次
+Git: 18次
+MySQL: 14次
+CSS: 12次
+JavaScript: 12次
+API: 11次
+PHP: 9次
+TCP/IP: 7次
+PostgreSQL: 7次
+Spring: 7次
+Python: 7次
+AWS: 6次
+Docker: 6次
+C++: 6次
+jQuery: 6次
+
+網頁設計師 類別的主要技能需求：
+--------------------------------------------------
+C#: 15次
+ASP.NET: 13次
+JavaScript: 10次
+CSS: 8次
+API: 8次
+HTML: 8次
+jQuery: 5次
+Oracle: 5次
+Git: 4次
+AWS: 3次
+javascript: 3次
+Python: 3次
+Angular: 3次
+MySQL: 3次
+C++: 3次
+
+AI 工程師 類別的主要技能需求：
+--------------------------------------------------
+Linux: 12次
+Git: 10次
+API: 8次
+Python: 8次
+AWS: 7次
+JavaScript: 6次
+CI/CD: 6次
+C++: 6次
+CSS: 5次
+GCP: 5次
+MySQL: 5次
+C#: 4次
+AI: 4次
+PostgreSQL: 4次
+Azure: 3次
+
+前端工程師 類別的主要技能需求：
+--------------------------------------------------
+CSS: 3次
+JavaScript: 3次
+Docker: 2次
+ES6: 2次
+HTML: 2次
+
+Android 工程師 類別的主要技能需求：
+--------------------------------------------------
+Kotlin: 11次
+Git: 8次
+API: 5次
+JavaScript: 5次
+MySQL: 5次
+Python: 5次
+Linux: 4次
+C#: 4次
+C++: 4次
+HTML: 3次
+TCP/IP: 3次
+Unix: 2次
+Azure: 2次
+Node.js: 2次
+SWIFT: 2次
+
+軟韌體測試工程師 類別的主要技能需求：
+--------------------------------------------------
+Linux: 5次
+Git: 5次
+Docker: 5次
+MySQL: 5次
+C#: 3次
+Python: 3次
+AWS: 3次
+CI/CD: 3次
+NoSQL: 3次
+PHP: 3次
+PostgreSQL: 3次
+CSS: 3次
+HTML: 3次
+JavaScript: 3次
+TCP/IP: 2次
+
+全端工程師 類別的主要技能需求：
+--------------------------------------------------
+JavaScript: 4次
+MySQL: 4次
+GCP: 3次
+Python: 3次
+HTML: 3次
+Node.js: 3次
+HTTP: 3次
+C#: 3次
+Docker: 2次
+PHP: 2次
+Vue.js: 2次
+
+資料庫管理人員 類別的主要技能需求：
+--------------------------------------------------
+C#: 3次
+MySQL: 3次
+ASP.NET: 2次
+
+iOS 工程師 類別的主要技能需求：
+--------------------------------------------------
+Git: 2次
+SWIFT: 2次
+Swift: 2次
+C++: 2次
