@@ -1,10 +1,10 @@
 # url_domain = "https://www.cbc.gov.tw/tw/"
-# url = "https://www.cbc.gov.tw/tw/lp-645-1-1-20.html"
+# webscraper = "https://www.cbc.gov.tw/tw/lp-645-1-1-20.html"
 import time
 
 import requests
 from bs4 import BeautifulSoup
-from 爬蟲_OREILLY.write_csv import write_csv
+from py_爬蟲_OREILLY.write_csv import write_csv
 import csv
 
 

@@ -21,7 +21,7 @@ import numpy
 import pandas
 import requests
 from bs4 import BeautifulSoup
-from 爬蟲_OREILLY.write_csv import write_csv
+from py_爬蟲_OREILLY.write_csv import write_csv
 from matplotlib import pyplot
 import csv
 

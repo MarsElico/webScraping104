@@ -1,0 +1,507 @@
+C:\Programs\programing\spyder-6\envs\spyder-runtime\python.exe T:\Programing_RightPath\scraper\py0212\py3_test.py 
+面試得說前薪水嗎
+登入
+機車,25分
+工作性質
+更多條件
+Tag: div, Class: w-100 min-w-auto pb-0 overflow-hidden, Text: 軟體／工程
+Tag: div, Class: breadcrumb d-none, Text: 
+Tag: div, Class: d-flex justify-content-between align-items-center, Text: 
+Tag: ol, Class: p-0 m-0 d-flex flex-wrap breadcrumb-list, Text: 
+Tag: li, Class: t4 align-bottom mx-2 breadcrumb-list__item, Text: 
+Tag: div, Class: text-truncate d-inline-block align-bottom, Text: 
+Tag: a, Class: btn-link font-weight-normal, Text: 
+Tag: li, Class: t4 align-bottom mx-2 breadcrumb-list__item, Text: 
+Tag: div, Class: text-truncate d-inline-block align-bottom, Text: 
+Tag: a, Class: btn-link font-weight-normal, Text: 
+Tag: li, Class: t4 align-bottom mx-2 breadcrumb-list__item, Text: 
+Tag: div, Class: text-truncate d-inline-block align-bottom, Text: 
+Tag: div, Class: search-main search-main--with-nav, Text: 軟體／工程
+Tag: div, Class: search-main__mobile p-3 bg-white d-md-none, Text: 軟體／工程
+Tag: div, Class: search-main__mobile-outline bg-gray-score rounded, Text: 軟體／工程
+Tag: div, Class: row position-relative, Text: 軟體／工程
+Tag: div, Class: col, Text: 
+Tag: input, Class: form-control border-0 bg-gray-score p-3 text-truncate, Text: 
+Tag: div, Class: category-picker-opener-main text-truncate t3 position-relative pr-7 text-gray-dark col input-right text-gray-deep-dark, Text: 軟體／工程
+Tag: i, Class: jb_icon_right position-absolute, Text: 
+Tag: div, Class: search-main__pc bg-white p-5 d-none d-md-block, Text: 
+Tag: div, Class: container jb-container m-auto, Text: 
+Tag: div, Class: row align-items-center, Text: 
+Tag: div, Class: col-auto pr-1 position-relative search-main__lat-input, Text: 
+Tag: div, Class: form-element-tag-region location-input position-relative, Text: 
+Tag: div, Class: multiselect__spinner, Text: 
+Tag: input, Class: form-control multiselect py-3 text-truncate pr-7, Text: 
+Tag: i, Class: jb_icon_delete position-absolute t3 text-gray-darker, Text: 
+Tag: div, Class: high-light multiselect__content-wrapper, Text: 
+Tag: ul, Class: multiselect__content w-100, Text: 
+Tag: li, Class: multiselect__element position-relative, Text: 
+Tag: span, Class: multiselect__option text-truncate d-flex align-items-center pr-5, Text: 
+Tag: i, Class: text-gray-darker t3 position-absolute multiselect__icon jb_icon_address, Text: 
+Tag: li, Class: multiselect__element position-relative, Text: 
+Tag: span, Class: multiselect__option text-truncate d-flex align-items-center pr-5, Text: 
+Tag: i, Class: text-gray-darker t3 position-absolute multiselect__icon jb_icon_location, Text: 
+Tag: li, Class: multiselect__element position-relative, Text: 
+Tag: span, Class: multiselect__option text-truncate d-flex align-items-center pr-5, Text: 
+Tag: i, Class: text-gray-darker t3 position-absolute multiselect__icon jb_icon_location jb_icon_history, Text: 
+Tag: div, Class: col pr-1, Text: 
+Tag: div, Class: bg-gray-score rounded position-relative, Text: 
+Tag: div, Class: form-element-tag-region form-control position-relative location-input border-0 bg-gray-score p-0 search-main__keyword-text, Text: 
+Tag: div, Class: multiselect__spinner, Text: 
+Tag: input, Class: form-control multiselect py-3 placeholderFont, Text: 
+Tag: div, Class: high-light multiselect__content-wrapper, Text: 
+Tag: ul, Class: multiselect__content w-100, Text: 
+Tag: div, Class: position-absolute d-flex justify-content-end search-main__keyword w-100, Text: 
+Tag: div, Class: col-7 text-truncate text-gray-dark, Text: 
+Tag: div, Class: category-picker-opener-main text-truncate t3 position-relative pr-7 text-gray-dark pl-3 input-right col-5 text-gray-deep-dark, Text: 
+Tag: i, Class: jb_icon_right position-absolute, Text: 
+Tag: div, Class: col flex-grow-0 search-main__btn, Text: 
+Tag: button, Class: btn btn-secondary btn-xl, Text: 
+Tag: div, Class: bg-white m-0 search-sub position-relative, Text: 機車,25
+Tag: div, Class: row mx-auto container jb-container p-0, Text: 機車,25
+Tag: div, Class: col flex-grow-1, Text: 機車,25
+Tag: ul, Class: search-tabs row mb-0 p-0 px-md-3, Text: 機車,25
+Tag: li, Class: col-4 col-md-auto search-tab p-3 pr-7 text-center, Text: 機車,25
+Tag: span, Class: text-secondary font-weight-bold, Text: 機車,25
+Tag: i, Class: jb_icon_down ml-1 text-gray-dark position-absolute, Text: 
+Tag: li, Class: col-4 col-md-auto search-tab p-3 pr-7 text-center d-md-block d-none, Text: 
+Tag: i, Class: jb_icon_down ml-1 text-gray-dark position-absolute, Text: 
+Tag: li, Class: col-4 col-md-auto search-tab p-3 pr-7 text-center, Text: 工作性質
+Tag: i, Class: jb_icon_down ml-1 text-gray-dark position-absolute, Text: 
+Tag: li, Class: col-4 col-md-auto search-tab p-3 pr-7 text-center d-md-block d-none, Text: 
+Tag: i, Class: jb_icon_down ml-1 text-gray-dark position-absolute, Text: 
+Tag: li, Class: col-4 col-md-auto search-tab p-3 pr-7 text-center d-md-block d-none, Text: 
+Tag: i, Class: jb_icon_down ml-1 text-gray-dark position-absolute, Text: 
+Tag: li, Class: col-4 col-md-auto search-tab p-3 pr-7 text-center d-md-block d-none, Text: 
+Tag: i, Class: jb_icon_down ml-1 text-gray-dark position-absolute, Text: 
+Tag: li, Class: col-4 col-md-auto search-tab p-3 pr-7 text-center, Text: 更多條件
+Tag: i, Class: jb_icon_down ml-1 text-gray-dark position-absolute, Text: 
+Tag: div, Class: col-auto d-none d-md-flex, Text: 
+Tag: ul, Class: tool-tabs row mb-0 p-0, Text: 
+Tag: li, Class: col-auto tool-tab py-3 font-weight-bold px-5 tool-tab__left text-gray-dark, Text: 
+Tag: i, Class: jb_icon_clear, Text: 
+Tag: li, Class: col-auto tool-tab py-3 font-weight-bold pl-5 pr-0 text-gray-darker tool-tab--active, Text: 
+Tag: div, Class: v-popover, Text: 
+Tag: div, Class: trigger, Text: 
+Tag: i, Class: jb_icon_sharing, Text: 
+Tag: div, Class: sub-filter-content-area bg-white w-100 position-absolute d-none d-md-block, Text: 
+Tag: div, Class: container jb-container, Text: 
+Tag: div, Class: sub-filter-content-area__width, Text: 
+Tag: div, Class: search-subrange pt-7 pb-3, Text: 
+Tag: div, Class: search-subrange__title mb-6, Text: 
+Tag: div, Class: search-subrange__options p-0 m-0 mb-6, Text: 
+Tag: span, Class: border-button mr-3 mb-3 text-truncate px-2 text-blue-lake d-inline-block text-center t4 small, Text: 
+Tag: span, Class: border-button mr-3 mb-3 text-truncate px-2 text-blue-lake d-inline-block text-center bg-blue-lake text-white t4 small, Text: 
+Tag: span, Class: border-button mr-3 mb-3 text-truncate px-2 text-blue-lake d-inline-block text-center t4 small, Text: 
+Tag: span, Class: border-button mr-3 mb-3 text-truncate px-2 text-blue-lake d-inline-block text-center t4 small, Text: 
+Tag: span, Class: border-button mr-3 mb-3 text-truncate px-2 text-blue-lake d-inline-block text-center t4 small, Text: 
+Tag: div, Class: search-subrange__time-range pt-8, Text: 
+Tag: div, Class: d-inline-block align-middle vue-slider vue-slider-ltr, Text: 
+Tag: div, Class: vue-slider-rail, Text: 
+Tag: div, Class: vue-slider-process, Text: 
+Tag: div, Class: vue-slider-dot, Text: 
+Tag: div, Class: vue-slider-dot-handle, Text: 
+Tag: div, Class: vue-slider-dot-tooltip vue-slider-dot-tooltip-top vue-slider-dot-tooltip-show, Text: 
+Tag: div, Class: vue-slider-dot-tooltip-inner vue-slider-dot-tooltip-inner-top, Text: 
+Tag: span, Class: vue-slider-dot-tooltip-text, Text: 
+Tag: button, Class: btn btn-outline-secondary ml-8 btn-sm search-subrange__condition-btn d-none d-md-inline-block, Text: 
+Tag: div, Class: search-sub-working-type pt-7 pb-3, Text: 
+Tag: div, Class: row align-items-start, Text: 
+Tag: div, Class: col-auto font-weight-bold py-2, Text: 
+Tag: div, Class: col, Text: 
+Tag: div, Class: search-sub-working-type__tags-col, Text: 
+Tag: div, Class: left d-inline-block position-relative, Text: 
+Tag: span, Class: form-element-tag d-inline-block p-1 sub-filter-option col-auto mb-4, Text: 
+Tag: span, Class: d-flex align-items-center position-relative form-element-tag__item pr-6 d-inline-block form-element-tag__gray, Text: 
+Tag: span, Class: text-truncate t4 d-inline-block, Text: 
+Tag: span, Class: form-element-tag d-inline-block p-1 sub-filter-option col-auto mb-4, Text: 
+Tag: span, Class: d-flex align-items-center position-relative form-element-tag__item pr-6 d-inline-block form-element-tag__gray, Text: 
+Tag: span, Class: text-truncate t4 d-inline-block, Text: 
+Tag: span, Class: form-element-tag d-inline-block p-1 sub-filter-option col-auto mb-4, Text: 
+Tag: span, Class: d-flex align-items-center position-relative form-element-tag__item pr-6 d-inline-block form-element-tag__gray, Text: 
+Tag: span, Class: text-truncate t4 d-inline-block, Text: 
+Tag: span, Class: form-element-tag d-inline-block p-1 sub-filter-option col-auto mb-4, Text: 
+Tag: span, Class: d-flex align-items-center position-relative form-element-tag__item pr-6 d-inline-block form-element-tag__gray, Text: 
+Tag: span, Class: text-truncate t4 d-inline-block, Text: 
+Tag: div, Class: d-inline-block, Text: 
+Tag: span, Class: form-element-tag d-inline-block p-1 sub-filter-option col-auto mb-4, Text: 
+Tag: span, Class: d-flex align-items-center position-relative form-element-tag__item pr-6 d-inline-block form-element-tag__gray, Text: 
+Tag: span, Class: text-truncate t4 d-inline-block, Text: 
+Tag: span, Class: form-element-tag d-inline-block p-1 sub-filter-option col-auto mb-4, Text: 
+Tag: span, Class: d-flex align-items-center position-relative form-element-tag__item pr-6 d-inline-block form-element-tag__gray, Text: 
+Tag: span, Class: text-truncate t4 d-inline-block, Text: 
+Tag: div, Class: row align-items-start, Text: 
+Tag: div, Class: col-auto font-weight-bold py-2, Text: 
+Tag: div, Class: col, Text: 
+Tag: div, Class: search-sub-working-type__tags-col, Text: 
+Tag: span, Class: form-element-tag d-inline-block p-1 sub-filter-option col-auto mb-4, Text: 
+Tag: span, Class: d-flex align-items-center position-relative form-element-tag__item pr-6 d-inline-block form-element-tag__gray, Text: 
+Tag: span, Class: text-truncate t4 d-inline-block, Text: 
+Tag: div, Class: search-sub-basic pt-7 pb-3, Text: 
+Tag: div, Class: row align-items-start, Text: 
+Tag: div, Class: col, Text: 
+Tag: span, Class: form-element-tag d-inline-block p-1 sub-filter-option col-auto mb-4, Text: 
+Tag: span, Class: d-flex align-items-center position-relative form-element-tag__item pr-6 d-inline-block form-element-tag__gray, Text: 
+Tag: span, Class: text-truncate t4 d-inline-block, Text: 
+Tag: span, Class: form-element-tag d-inline-block p-1 sub-filter-option col-auto mb-4, Text: 
+Tag: span, Class: d-flex align-items-center position-relative form-element-tag__item pr-6 d-inline-block form-element-tag__gray, Text: 
+Tag: span, Class: text-truncate t4 d-inline-block, Text: 
+Tag: span, Class: form-element-tag d-inline-block p-1 sub-filter-option col-auto mb-4, Text: 
+Tag: span, Class: d-flex align-items-center position-relative form-element-tag__item pr-6 d-inline-block form-element-tag__gray, Text: 
+Tag: span, Class: text-truncate t4 d-inline-block, Text: 
+Tag: span, Class: form-element-tag d-inline-block p-1 sub-filter-option col-auto mb-4, Text: 
+Tag: span, Class: d-flex align-items-center position-relative form-element-tag__item pr-6 d-inline-block form-element-tag__gray, Text: 
+Tag: span, Class: text-truncate t4 d-inline-block, Text: 
+Tag: span, Class: form-element-tag d-inline-block p-1 sub-filter-option col-auto mb-4, Text: 
+Tag: span, Class: d-flex align-items-center position-relative form-element-tag__item pr-6 d-inline-block form-element-tag__gray, Text: 
+Tag: span, Class: text-truncate t4 d-inline-block, Text: 
+Tag: div, Class: search-sub-basic pt-7 pb-3, Text: 
+Tag: div, Class: row align-items-start, Text: 
+Tag: div, Class: col, Text: 
+Tag: span, Class: form-element-tag d-inline-block p-1 sub-filter-option col-auto mb-4, Text: 
+Tag: span, Class: d-flex align-items-center position-relative form-element-tag__item pr-6 d-inline-block form-element-tag__gray, Text: 
+Tag: span, Class: text-truncate t4 d-inline-block, Text: 
+Tag: span, Class: form-element-tag d-inline-block p-1 sub-filter-option col-auto mb-4, Text: 
+Tag: span, Class: d-flex align-items-center position-relative form-element-tag__item pr-6 d-inline-block form-element-tag__gray, Text: 
+Tag: span, Class: text-truncate t4 d-inline-block, Text: 
+Tag: span, Class: form-element-tag d-inline-block p-1 sub-filter-option col-auto mb-4, Text: 
+Tag: span, Class: d-flex align-items-center position-relative form-element-tag__item pr-6 d-inline-block form-element-tag__gray, Text: 
+Tag: span, Class: text-truncate t4 d-inline-block, Text: 
+Tag: span, Class: form-element-tag d-inline-block p-1 sub-filter-option col-auto mb-4, Text: 
+Tag: span, Class: d-flex align-items-center position-relative form-element-tag__item pr-6 d-inline-block form-element-tag__gray, Text: 
+Tag: span, Class: text-truncate t4 d-inline-block, Text: 
+Tag: span, Class: form-element-tag d-inline-block p-1 sub-filter-option col-auto mb-4, Text: 
+Tag: span, Class: d-flex align-items-center position-relative form-element-tag__item pr-6 d-inline-block form-element-tag__gray, Text: 
+Tag: span, Class: text-truncate t4 d-inline-block, Text: 
+Tag: div, Class: search-sub-basic pt-7 pb-3, Text: 
+Tag: div, Class: row align-items-start, Text: 
+Tag: div, Class: col, Text: 
+Tag: span, Class: form-element-tag d-inline-block p-1 sub-filter-option col-auto mb-4, Text: 
+Tag: span, Class: d-flex align-items-center position-relative form-element-tag__item pr-6 d-inline-block form-element-tag__gray, Text: 
+Tag: span, Class: text-truncate t4 d-inline-block, Text: 
+Tag: span, Class: form-element-tag d-inline-block p-1 sub-filter-option col-auto mb-4, Text: 
+Tag: span, Class: d-flex align-items-center position-relative form-element-tag__item pr-6 d-inline-block form-element-tag__gray, Text: 
+Tag: span, Class: text-truncate t4 d-inline-block, Text: 
+Tag: span, Class: form-element-tag d-inline-block p-1 sub-filter-option col-auto mb-4, Text: 
+Tag: span, Class: d-flex align-items-center position-relative form-element-tag__item pr-6 d-inline-block form-element-tag__gray, Text: 
+Tag: span, Class: text-truncate t4 d-inline-block, Text: 
+Tag: span, Class: form-element-tag d-inline-block p-1 sub-filter-option col-auto mb-4, Text: 
+Tag: span, Class: d-flex align-items-center position-relative form-element-tag__item pr-6 d-inline-block form-element-tag__gray, Text: 
+Tag: span, Class: text-truncate t4 d-inline-block, Text: 
+Tag: div, Class: search-subsalary pt-7 pb-3, Text: 
+Tag: div, Class: row align-items-start, Text: 
+Tag: div, Class: col-auto font-weight-bold py-2, Text: 
+Tag: div, Class: col, Text: 
+Tag: span, Class: form-element-tag d-inline-block p-1 sub-filter-option col-auto mb-4, Text: 
+Tag: span, Class: d-flex align-items-center position-relative form-element-tag__item pr-6 d-inline-block form-element-tag__gray, Text: 
+Tag: span, Class: text-truncate t4 d-inline-block, Text: 
+Tag: span, Class: form-element-tag d-inline-block p-1 sub-filter-option col-auto mb-4, Text: 
+Tag: span, Class: d-flex align-items-center position-relative form-element-tag__item pr-6 d-inline-block form-element-tag__gray, Text: 
+Tag: span, Class: text-truncate t4 d-inline-block, Text: 
+Tag: span, Class: form-element-tag d-inline-block p-1 sub-filter-option col-auto mb-4, Text: 
+Tag: span, Class: d-flex align-items-center position-relative form-element-tag__item pr-6 d-inline-block form-element-tag__gray, Text: 
+Tag: span, Class: text-truncate t4 d-inline-block, Text: 
+Tag: span, Class: form-element-tag d-inline-block p-1 sub-filter-option col-auto mb-4, Text: 
+Tag: span, Class: d-flex align-items-center position-relative form-element-tag__item pr-6 d-inline-block form-element-tag__gray, Text: 
+Tag: span, Class: text-truncate t4 d-inline-block, Text: 
+Tag: div, Class: row align-items-start, Text: 
+Tag: div, Class: col-auto font-weight-bold py-2, Text: 
+Tag: div, Class: col, Text: 
+Tag: div, Class: custom-salary row no-gutters, Text: 
+Tag: div, Class: tag w-100, Text: 
+Tag: span, Class: form-element-tag d-inline-block p-1 sub-filter-option col-auto mb-4, Text: 
+Tag: span, Class: d-flex align-items-center position-relative form-element-tag__item pr-6 d-inline-block form-element-tag__gray, Text: 
+Tag: span, Class: text-truncate t4 d-inline-block, Text: 
+Tag: div, Class: mb-4 mb-md-0 custom-salary__element, Text: 
+Tag: div, Class: form-element-tag-region position-relative custom-salary__select, Text: 
+Tag: div, Class: multiselect__spinner, Text: 
+Tag: div, Class: form-control form-control--category-menu d-flex flex-wrap form-element-tag-input d-flex align-items-center, Text: 
+Tag: span, Class: text-region, Text: 
+Tag: i, Class: jb_icon_down, Text: 
+Tag: div, Class: high-light multiselect__content-wrapper, Text: 
+Tag: ul, Class: multiselect__content w-100, Text: 
+Tag: li, Class: multiselect__element position-relative, Text: 
+Tag: span, Class: multiselect__option d-flex align-items-center multiselect__option--hover, Text: 
+Tag: li, Class: multiselect__element position-relative, Text: 
+Tag: span, Class: multiselect__option d-flex align-items-center, Text: 
+Tag: li, Class: multiselect__element position-relative, Text: 
+Tag: span, Class: multiselect__option d-flex align-items-center, Text: 
+Tag: li, Class: multiselect__element position-relative, Text: 
+Tag: span, Class: multiselect__option d-flex align-items-center, Text: 
+Tag: div, Class: d-flex mb-0, Text: 
+Tag: div, Class: col-6 col-md-auto pl-0 pr-2 left, Text: 
+Tag: input, Class: form-control border-0 custom-salary__min number-max, Text: 
+Tag: div, Class: col-auto py-2 px-0, Text: 
+Tag: div, Class: col-6 col-md-auto pl-2 pr-1, Text: 
+Tag: input, Class: form-control border-0 number-max, Text: 
+Tag: div, Class: d-none d-md-block col-auto p-0 ml-2, Text: 
+Tag: button, Class: btn btn-outline-light btn-sm custom-salary__condition-btn, Text: 
+Tag: div, Class: search-sub-more py-7, Text: 
+Tag: div, Class: row align-items-start, Text: 
+Tag: div, Class: col-auto font-weight-bold py-2, Text: 
+Tag: div, Class: col, Text: 
+Tag: span, Class: form-element-tag d-inline-block p-1 sub-filter-option col-auto mb-4, Text: 
+Tag: span, Class: d-flex align-items-center position-relative form-element-tag__item pr-6 d-inline-block form-element-tag__gray, Text: 
+Tag: span, Class: text-truncate t4 d-inline-block, Text: 
+Tag: span, Class: form-element-tag d-inline-block p-1 sub-filter-option col-auto mb-4, Text: 
+Tag: span, Class: d-flex align-items-center position-relative form-element-tag__item pr-6 d-inline-block form-element-tag__gray, Text: 
+Tag: span, Class: text-truncate t4 d-inline-block, Text: 
+Tag: span, Class: form-element-tag d-inline-block p-1 sub-filter-option col-auto mb-4, Text: 
+Tag: span, Class: d-flex align-items-center position-relative form-element-tag__item pr-6 d-inline-block form-element-tag__gray, Text: 
+Tag: span, Class: text-truncate t4 d-inline-block, Text: 
+Tag: span, Class: form-element-tag d-inline-block p-1 sub-filter-option col-auto mb-4, Text: 
+Tag: span, Class: d-flex align-items-center position-relative form-element-tag__item pr-6 d-inline-block form-element-tag__gray, Text: 
+Tag: span, Class: text-truncate t4 d-inline-block, Text: 
+Tag: span, Class: form-element-tag d-inline-block p-1 sub-filter-option col-auto mb-4, Text: 
+Tag: span, Class: d-flex align-items-center position-relative form-element-tag__item pr-6 d-inline-block form-element-tag__gray, Text: 
+Tag: span, Class: text-truncate t4 d-inline-block, Text: 
+Tag: span, Class: form-element-tag d-inline-block p-1 sub-filter-option col-auto mb-4, Text: 
+Tag: span, Class: d-flex align-items-center position-relative form-element-tag__item pr-6 d-inline-block form-element-tag__gray, Text: 
+Tag: span, Class: text-truncate t4 d-inline-block, Text: 
+Tag: div, Class: row align-items-start, Text: 
+Tag: div, Class: col-auto font-weight-bold py-2, Text: 
+Tag: div, Class: col, Text: 
+Tag: span, Class: form-element-tag d-inline-block p-1 sub-filter-option col-auto mb-4, Text: 
+Tag: span, Class: d-flex align-items-center position-relative form-element-tag__item pr-6 d-inline-block form-element-tag__gray, Text: 
+Tag: span, Class: text-truncate t4 d-inline-block, Text: 
+Tag: span, Class: form-element-tag d-inline-block p-1 sub-filter-option col-auto mb-4, Text: 
+Tag: span, Class: d-flex align-items-center position-relative form-element-tag__item pr-6 d-inline-block form-element-tag__gray, Text: 
+Tag: span, Class: text-truncate t4 d-inline-block, Text: 
+Tag: span, Class: form-element-tag d-inline-block p-1 sub-filter-option col-auto mb-4, Text: 
+Tag: span, Class: d-flex align-items-center position-relative form-element-tag__item pr-6 d-inline-block form-element-tag__gray, Text: 
+Tag: span, Class: text-truncate t4 d-inline-block, Text: 
+Tag: span, Class: form-element-tag d-inline-block p-1 sub-filter-option col-auto mb-4, Text: 
+Tag: span, Class: d-flex align-items-center position-relative form-element-tag__item pr-6 d-inline-block form-element-tag__gray, Text: 
+Tag: span, Class: text-truncate t4 d-inline-block, Text: 
+Tag: span, Class: form-element-tag d-inline-block p-1 sub-filter-option col-auto mb-4, Text: 
+Tag: span, Class: d-flex align-items-center position-relative form-element-tag__item pr-6 d-inline-block form-element-tag__gray, Text: 
+Tag: span, Class: text-truncate t4 d-inline-block, Text: 
+Tag: span, Class: form-element-tag d-inline-block p-1 sub-filter-option col-auto mb-4, Text: 
+Tag: span, Class: d-flex align-items-center position-relative form-element-tag__item pr-6 d-inline-block form-element-tag__gray, Text: 
+Tag: span, Class: text-truncate t4 d-inline-block, Text: 
+Tag: span, Class: form-element-tag d-inline-block p-1 sub-filter-option col-auto mb-4, Text: 
+Tag: span, Class: d-flex align-items-center position-relative form-element-tag__item pr-6 d-inline-block form-element-tag__gray, Text: 
+Tag: span, Class: text-truncate t4 d-inline-block, Text: 
+Tag: span, Class: form-element-tag d-inline-block p-1 sub-filter-option col-auto mb-4, Text: 
+Tag: span, Class: d-flex align-items-center position-relative form-element-tag__item pr-6 d-inline-block form-element-tag__gray, Text: 
+Tag: span, Class: text-truncate t4 d-inline-block, Text: 
+Tag: span, Class: form-element-tag d-inline-block p-1 sub-filter-option col-auto mb-4, Text: 
+Tag: span, Class: d-flex align-items-center position-relative form-element-tag__item pr-6 d-inline-block form-element-tag__gray, Text: 
+Tag: span, Class: text-truncate t4 d-inline-block, Text: 
+Tag: span, Class: form-element-tag d-inline-block p-1 sub-filter-option col-auto mb-4, Text: 
+Tag: span, Class: d-flex align-items-center position-relative form-element-tag__item pr-6 d-inline-block form-element-tag__gray, Text: 
+Tag: span, Class: text-truncate t4 d-inline-block, Text: 
+Tag: div, Class: row align-items-start, Text: 
+Tag: div, Class: col-auto font-weight-bold py-2, Text: 
+Tag: div, Class: col, Text: 
+Tag: span, Class: form-element-tag d-inline-block p-1 sub-filter-option col-auto mb-4, Text: 
+Tag: span, Class: d-flex align-items-center position-relative form-element-tag__item pr-6 d-inline-block form-element-tag__gray, Text: 
+Tag: span, Class: text-truncate t4 d-inline-block, Text: 
+Tag: span, Class: form-element-tag d-inline-block p-1 sub-filter-option col-auto mb-4, Text: 
+Tag: span, Class: d-flex align-items-center position-relative form-element-tag__item pr-6 d-inline-block form-element-tag__gray, Text: 
+Tag: span, Class: text-truncate t4 d-inline-block, Text: 
+Tag: span, Class: form-element-tag d-inline-block p-1 sub-filter-option col-auto mb-4, Text: 
+Tag: span, Class: d-flex align-items-center position-relative form-element-tag__item pr-6 d-inline-block form-element-tag__gray, Text: 
+Tag: span, Class: text-truncate t4 d-inline-block, Text: 
+Tag: span, Class: form-element-tag d-inline-block p-1 sub-filter-option col-auto mb-4, Text: 
+Tag: span, Class: d-flex align-items-center position-relative form-element-tag__item pr-6 d-inline-block form-element-tag__gray, Text: 
+Tag: span, Class: text-truncate t4 d-inline-block, Text: 
+Tag: span, Class: form-element-tag d-inline-block p-1 sub-filter-option col-auto mb-4, Text: 
+Tag: span, Class: d-flex align-items-center position-relative form-element-tag__item pr-6 d-inline-block form-element-tag__gray, Text: 
+Tag: span, Class: text-truncate t4 d-inline-block, Text: 
+Tag: div, Class: row align-items-start, Text: 
+Tag: div, Class: col-auto font-weight-bold py-2, Text: 
+Tag: div, Class: col, Text: 
+Tag: span, Class: form-element-tag d-inline-block p-1 sub-filter-option col-auto mb-4, Text: 
+Tag: span, Class: d-flex align-items-center position-relative form-element-tag__item pr-6 d-inline-block form-element-tag__gray, Text: 
+Tag: span, Class: text-truncate t4 d-inline-block, Text: 
+Tag: span, Class: form-element-tag d-inline-block p-1 sub-filter-option col-auto mb-4, Text: 
+Tag: span, Class: d-flex align-items-center position-relative form-element-tag__item pr-6 d-inline-block form-element-tag__gray, Text: 
+Tag: span, Class: text-truncate t4 d-inline-block, Text: 
+Tag: span, Class: form-element-tag d-inline-block p-1 sub-filter-option col-auto mb-4, Text: 
+Tag: span, Class: d-flex align-items-center position-relative form-element-tag__item pr-6 d-inline-block form-element-tag__gray, Text: 
+Tag: span, Class: text-truncate t4 d-inline-block, Text: 
+Tag: span, Class: form-element-tag d-inline-block p-1 sub-filter-option col-auto mb-4, Text: 
+Tag: span, Class: d-flex align-items-center position-relative form-element-tag__item pr-6 d-inline-block form-element-tag__gray, Text: 
+Tag: span, Class: text-truncate t4 d-inline-block, Text: 
+Tag: span, Class: form-element-tag d-inline-block p-1 sub-filter-option col-auto mb-4, Text: 
+Tag: span, Class: d-flex align-items-center position-relative form-element-tag__item pr-6 d-inline-block form-element-tag__gray, Text: 
+Tag: span, Class: text-truncate t4 d-inline-block, Text: 
+Tag: span, Class: form-element-tag d-inline-block p-1 sub-filter-option col-auto mb-4, Text: 
+Tag: span, Class: d-flex align-items-center position-relative form-element-tag__item pr-6 d-inline-block form-element-tag__gray, Text: 
+Tag: span, Class: text-truncate t4 d-inline-block, Text: 
+Tag: span, Class: form-element-tag d-inline-block p-1 sub-filter-option col-auto mb-4, Text: 
+Tag: span, Class: d-flex align-items-center position-relative form-element-tag__item pr-6 d-inline-block form-element-tag__gray, Text: 
+Tag: span, Class: text-truncate t4 d-inline-block, Text: 
+Tag: span, Class: form-element-tag d-inline-block p-1 sub-filter-option col-auto mb-4, Text: 
+Tag: span, Class: d-flex align-items-center position-relative form-element-tag__item pr-6 d-inline-block form-element-tag__gray, Text: 
+Tag: span, Class: text-truncate t4 d-inline-block, Text: 
+Tag: span, Class: form-element-tag d-inline-block p-1 sub-filter-option col-auto mb-4, Text: 
+Tag: span, Class: d-flex align-items-center position-relative form-element-tag__item pr-6 d-inline-block form-element-tag__gray, Text: 
+Tag: span, Class: text-truncate t4 d-inline-block, Text: 
+Tag: div, Class: row align-items-start, Text: 
+Tag: div, Class: col-auto font-weight-bold py-2, Text: 
+Tag: div, Class: col, Text: 
+Tag: div, Class: form-element-tag-region position-relative search-sub-more__dis-role, Text: 
+Tag: div, Class: multiselect__spinner, Text: 
+Tag: div, Class: form-control form-control--category-menu d-flex flex-wrap form-element-tag-input d-flex align-items-center, Text: 
+Tag: span, Class: text-region placeholder, Text: 
+Tag: i, Class: jb_icon_down, Text: 
+Tag: div, Class: multiselect__content-wrapper, Text: 
+Tag: ul, Class: multiselect__content w-100, Text: 
+Tag: li, Class: multiselect__element position-relative, Text: 
+Tag: span, Class: multiselect__option d-flex align-items-center multiselect__option--hover, Text: 
+Tag: li, Class: multiselect__element position-relative, Text: 
+Tag: span, Class: multiselect__option d-flex align-items-center, Text: 
+Tag: li, Class: multiselect__element position-relative, Text: 
+Tag: span, Class: multiselect__option d-flex align-items-center, Text: 
+Tag: li, Class: multiselect__element position-relative, Text: 
+Tag: span, Class: multiselect__option d-flex align-items-center, Text: 
+Tag: li, Class: multiselect__element position-relative, Text: 
+Tag: span, Class: multiselect__option d-flex align-items-center, Text: 
+Tag: li, Class: multiselect__element position-relative, Text: 
+Tag: span, Class: multiselect__option d-flex align-items-center, Text: 
+Tag: li, Class: multiselect__element position-relative, Text: 
+Tag: span, Class: multiselect__option d-flex align-items-center, Text: 
+Tag: li, Class: multiselect__element position-relative, Text: 
+Tag: span, Class: multiselect__option d-flex align-items-center, Text: 
+Tag: li, Class: multiselect__element position-relative, Text: 
+Tag: span, Class: multiselect__option d-flex align-items-center, Text: 
+Tag: li, Class: multiselect__element position-relative, Text: 
+Tag: span, Class: multiselect__option d-flex align-items-center, Text: 
+Tag: li, Class: multiselect__element position-relative, Text: 
+Tag: span, Class: multiselect__option d-flex align-items-center, Text: 
+Tag: li, Class: multiselect__element position-relative, Text: 
+Tag: span, Class: multiselect__option d-flex align-items-center, Text: 
+Tag: div, Class: sub-filter-content-area__mask w-100 vh-100 position-fixed, Text: 
+Tag: div, Class: sub-filter-mobile-content-area d-md-none, Text: 
+Tag: div, Class: cluster-map map map--with-nav leaflet-container leaflet-retina leaflet-fade-anim leaflet-grab leaflet-touch-drag, Text: 1筆
+1筆
+Tag: div, Class: d-none, Text: 
+Tag: div, Class: d-none, Text: 
+Tag: div, Class: d-none, Text: 
+Tag: div, Class: d-none, Text: 
+Tag: div, Class: d-none d-md-flex cluster-map__range position-fixed bg-white align-items-center t4 p-3 rounded, Text: 
+Tag: div, Class: cluster-map__range-status mr-2, Text: 
+Tag: p, Class: m-0, Text: 
+Tag: div, Class: d-none, Text: 
+Tag: div, Class: leaflet-pane leaflet-map-pane, Text: 1筆
+1筆
+Tag: div, Class: leaflet-pane leaflet-tile-pane, Text: 
+Tag: div, Class: leaflet-layer , Text: 
+Tag: div, Class: leaflet-tile-container leaflet-zoom-animated, Text: 
+Tag: img, Class: leaflet-tile leaflet-tile-loaded, Text: 
+Tag: img, Class: leaflet-tile leaflet-tile-loaded, Text: 
+Tag: img, Class: leaflet-tile leaflet-tile-loaded, Text: 
+Tag: img, Class: leaflet-tile leaflet-tile-loaded, Text: 
+Tag: img, Class: leaflet-tile leaflet-tile-loaded, Text: 
+Tag: img, Class: leaflet-tile leaflet-tile-loaded, Text: 
+Tag: img, Class: leaflet-tile leaflet-tile-loaded, Text: 
+Tag: img, Class: leaflet-tile leaflet-tile-loaded, Text: 
+Tag: img, Class: leaflet-tile leaflet-tile-loaded, Text: 
+Tag: img, Class: leaflet-tile leaflet-tile-loaded, Text: 
+Tag: img, Class: leaflet-tile leaflet-tile-loaded, Text: 
+Tag: img, Class: leaflet-tile leaflet-tile-loaded, Text: 
+Tag: div, Class: leaflet-pane leaflet-shadow-pane, Text: 
+Tag: div, Class: leaflet-pane leaflet-overlay-pane, Text: 
+Tag: svg, Class: leaflet-zoom-animated, Text: 
+Tag: path, Class: leaflet-interactive, Text: 
+Tag: div, Class: leaflet-pane leaflet-marker-pane, Text: 1筆
+1筆
+Tag: div, Class: leaflet-marker-icon metro-icon d-block leaflet-zoom-animated leaflet-interactive, Text: 
+Tag: div, Class: d-flex, Text: 
+Tag: span, Class: ml-1 text-nowrap text-gray-deep-dark font-weight-bold, Text: 
+Tag: div, Class: leaflet-marker-icon metro-icon d-block leaflet-zoom-animated leaflet-interactive, Text: 
+Tag: div, Class: d-flex, Text: 
+Tag: span, Class: ml-1 text-nowrap text-gray-deep-dark font-weight-bold, Text: 
+Tag: div, Class: leaflet-marker-icon metro-icon d-block leaflet-zoom-animated leaflet-interactive, Text: 
+Tag: div, Class: d-flex, Text: 
+Tag: span, Class: ml-1 text-nowrap text-gray-deep-dark font-weight-bold, Text: 
+Tag: div, Class: leaflet-marker-icon metro-icon d-block leaflet-zoom-animated leaflet-interactive, Text: 
+Tag: div, Class: d-flex, Text: 
+Tag: span, Class: ml-1 text-nowrap text-gray-deep-dark font-weight-bold, Text: 
+Tag: div, Class: leaflet-marker-icon metro-icon d-block leaflet-zoom-animated leaflet-interactive, Text: 
+Tag: div, Class: d-flex, Text: 
+Tag: span, Class: ml-1 text-nowrap text-gray-deep-dark font-weight-bold, Text: 
+Tag: div, Class: leaflet-marker-icon metro-icon d-block leaflet-zoom-animated leaflet-interactive, Text: 
+Tag: div, Class: d-flex, Text: 
+Tag: span, Class: ml-1 text-nowrap text-gray-deep-dark font-weight-bold, Text: 
+Tag: div, Class: leaflet-marker-icon metro-icon d-block leaflet-zoom-animated leaflet-interactive, Text: 
+Tag: div, Class: d-flex, Text: 
+Tag: span, Class: ml-1 text-nowrap text-gray-deep-dark font-weight-bold, Text: 
+Tag: div, Class: leaflet-marker-icon metro-icon d-block leaflet-zoom-animated leaflet-interactive, Text: 
+Tag: div, Class: d-flex, Text: 
+Tag: span, Class: ml-1 text-nowrap text-gray-deep-dark font-weight-bold, Text: 
+Tag: div, Class: leaflet-marker-icon metro-icon d-block leaflet-zoom-animated leaflet-interactive, Text: 
+Tag: div, Class: d-flex, Text: 
+Tag: span, Class: ml-1 text-nowrap text-gray-deep-dark font-weight-bold, Text: 
+Tag: div, Class: leaflet-marker-icon metro-icon d-block leaflet-zoom-animated leaflet-interactive, Text: 
+Tag: div, Class: d-flex, Text: 
+Tag: span, Class: ml-1 text-nowrap text-gray-deep-dark font-weight-bold, Text: 
+Tag: div, Class: leaflet-marker-icon metro-icon d-block leaflet-zoom-animated leaflet-interactive, Text: 
+Tag: div, Class: d-flex, Text: 
+Tag: span, Class: ml-1 text-nowrap text-gray-deep-dark font-weight-bold, Text: 
+Tag: div, Class: leaflet-marker-icon metro-icon d-block leaflet-zoom-animated leaflet-interactive, Text: 
+Tag: div, Class: d-flex, Text: 
+Tag: span, Class: ml-1 text-nowrap text-gray-deep-dark font-weight-bold, Text: 
+Tag: div, Class: leaflet-marker-icon metro-icon d-block leaflet-zoom-animated leaflet-interactive, Text: 
+Tag: div, Class: d-flex, Text: 
+Tag: span, Class: ml-1 text-nowrap text-gray-deep-dark font-weight-bold, Text: 
+Tag: div, Class: leaflet-marker-icon metro-icon d-block leaflet-zoom-animated leaflet-interactive, Text: 
+Tag: div, Class: d-flex, Text: 
+Tag: span, Class: ml-1 text-nowrap text-gray-deep-dark font-weight-bold, Text: 
+Tag: img, Class: leaflet-marker-icon custom-icon leaflet-zoom-animated leaflet-interactive, Text: 
+Tag: div, Class: leaflet-pane leaflet-tooltip-pane, Text: 
+Tag: div, Class: leaflet-pane leaflet-popup-pane, Text: 
+Tag: div, Class: leaflet-proxy leaflet-zoom-animated, Text: 
+Tag: div, Class: leaflet-control-container, Text: 
+Tag: div, Class: leaflet-top leaflet-left, Text: 
+Tag: div, Class: leaflet-control-zoom leaflet-bar leaflet-control, Text: 
+Tag: a, Class: leaflet-control-zoom-in, Text: 
+Tag: a, Class: leaflet-control-zoom-out, Text: 
+Tag: div, Class: leaflet-top leaflet-right, Text: 
+Tag: div, Class: leaflet-bottom leaflet-left, Text: 
+Tag: div, Class: leaflet-control-attribution leaflet-control, Text: 
+Tag: div, Class: leaflet-bottom leaflet-right, Text: 
+Tag: div, Class: job-list-pc position-absolute bg-white, Text: 
+Tag: div, Class: job-list-pc__header d-flex justify-content-between py-3 px-4 border-bottom, Text: 
+Tag: div, Class: job-list-title d-flex justify-content-between w-100, Text: 
+Tag: div, Class: job-list-title__total align-items-center t4, Text: 
+Tag: div, Class: job-list-title__select position-relative, Text: 
+Tag: div, Class: form-element-tag-region bg-gray w-100, Text: 
+Tag: div, Class: multiselect__spinner, Text: 
+Tag: div, Class: form-control form-control--category-menu d-flex flex-wrap form-element-tag-input d-flex align-items-center, Text: 
+Tag: span, Class: text-region, Text: 
+Tag: i, Class: jb_icon_down, Text: 
+Tag: div, Class: high-light multiselect__content-wrapper, Text: 
+Tag: ul, Class: multiselect__content w-100, Text: 
+Tag: li, Class: multiselect__element position-relative, Text: 
+Tag: span, Class: multiselect__option d-flex align-items-center multiselect__option--hover, Text: 
+Tag: li, Class: multiselect__element position-relative, Text: 
+Tag: span, Class: multiselect__option d-flex align-items-center, Text: 
+Tag: li, Class: multiselect__element position-relative, Text: 
+Tag: span, Class: multiselect__option d-flex align-items-center, Text: 
+Tag: li, Class: multiselect__element position-relative, Text: 
+Tag: span, Class: multiselect__option d-flex align-items-center, Text: 
+Tag: li, Class: multiselect__element position-relative, Text: 
+Tag: span, Class: multiselect__option d-flex align-items-center, Text: 
+Tag: li, Class: multiselect__element position-relative, Text: 
+Tag: span, Class: multiselect__option d-flex align-items-center, Text: 
+Tag: li, Class: multiselect__element position-relative, Text: 
+Tag: span, Class: multiselect__option d-flex align-items-center, Text: 
+Tag: li, Class: multiselect__element position-relative, Text: 
+Tag: span, Class: multiselect__option d-flex align-items-center, Text: 
+Tag: div, Class: job-list-pc__list w-100, Text: 
+Tag: div, Class: job-list-pc__list-items, Text: 
+Tag: div, Class: job-list-m rounded-lg rounded-top  overflow-hidden position-fixed bg-white w-100, Text: 1834筆
+Tag: div, Class: job-list-m__header d-flex position-relative justify-content-between border-bottom pt-5 px-4 pb-3, Text: 1834筆
+Tag: span, Class: job-list-m__header-slide-sign position-absolute bg-gray-score rounded, Text: 
+Tag: div, Class: job-list-title d-flex justify-content-between w-100, Text: 1834筆
+Tag: div, Class: job-list-title__total align-items-center t4, Text: 1834筆
+Tag: div, Class: job-list-title__select position-relative, Text: 符合度排序
+Tag: select, Class: text-primary bg-transparent border-0, Text: 符合度排序
+Tag: div, Class: job-list-m__list overflow-hidden, Text: 資訊管理人
+Tag: div, Class: job-list-pc__list-items, Text: 資訊管理人
+Tag: div, Class: loading-mask c-loading, Text: 
+Tag: div, Class: loading, Text: 
+Tag: div, Class: loading-icon, Text: 
+Tag: img, Class: w-100 h-100, Text: 

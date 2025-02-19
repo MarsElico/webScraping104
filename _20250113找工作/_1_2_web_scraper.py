@@ -181,8 +181,8 @@ class JobScraper:
             # 保存數據
             if jobs_data:
                 df = pd.DataFrame(jobs_data)
-                os.makedirs('url', exist_ok=True)
-                output_path = os.path.join('url', output_filename)
+                os.makedirs('webscraper', exist_ok=True)
+                output_path = os.path.join('webscraper', output_filename)
                 df.to_csv(output_path, index=False, encoding='utf-8-sig')
                 self.logger.info(f"數據已保存到 {output_path}")
             else:
@@ -203,13 +203,59 @@ def scrape_104_jobs(url, output_filename):
 if __name__ == "__main__":
     # 讀取待爬取的 URL 和對應的檔案名稱
     urls = [
+        # "https://www.104.com.tw/jobs/search/?jobcat=2007001017&jobsource=joblist_search&area=6001008000&page=1",
+        # "https://www.104.com.tw/jobs/search/?jobcat=2007001007&jobsource=joblist_search&area=6001008000&page=1",
+        # "https://www.104.com.tw/jobs/search/?jobcat=2007001009&jobsource=joblist_search&area=6001008000&page=1",
+        # "https://www.104.com.tw/jobs/search/?jobcat=2007001015&jobsource=joblist_search&area=6001008000&page=1",
+        # "https://www.104.com.tw/jobs/search/?jobcat=2007001016&jobsource=joblist_search&area=6001008000&page=1",
+        "https://www.104.com.tw/jobs/search/?jobcat=2009003007&jobsource=joblist_search&area=6001008000&page=1",
+        "https://www.104.com.tw/jobs/search/?jobcat=2007001004&jobsource=joblist_search&area=6001008000&page=1",
+        "https://www.104.com.tw/jobs/search/?jobcat=2007001003&jobsource=joblist_search&area=6001008000&page=1",
+        "https://www.104.com.tw/jobs/search/?jobcat=2009003005&jobsource=joblist_search&area=6001008000&page=1",
         "https://www.104.com.tw/jobs/search/?jobcat=2007001022&jobsource=joblist_search&area=6001008000&page=1",
-        # ... 其他 URL ...
+        "https://www.104.com.tw/jobs/search/?jobcat=2007002002&jobsource=joblist_search&area=6001008000&page=1",
+        "https://www.104.com.tw/jobs/search/?jobcat=2007001010&jobsource=joblist_search&area=6001008000&page=1",
+        "https://www.104.com.tw/jobs/search/?jobcat=2007002007&jobsource=joblist_search&area=6001008000&page=1",
+        "https://www.104.com.tw/jobs/search/?jobcat=2004002005&jobsource=joblist_search&area=6001008000&page=1",
+        "https://www.104.com.tw/jobs/search/?jobcat=2007001008&jobsource=joblist_search&area=6001008000&page=1",
+        "https://www.104.com.tw/jobs/search/?jobcat=2007001012&jobsource=joblist_search&area=6001008000&page=1",
+        "https://www.104.com.tw/jobs/search/?jobcat=2013001006&jobsource=joblist_search&area=6001008000&page=1",
+        "https://www.104.com.tw/jobs/search/?jobcat=2007002005&jobsource=joblist_search&area=6001008000&page=1",
+        "https://www.104.com.tw/jobs/search/?jobcat=2007001020&jobsource=joblist_search&area=6001008000&page=1",
+        "https://www.104.com.tw/jobs/search/?jobcat=2007001014&jobsource=joblist_search&area=6001008000&page=1",
+        "https://www.104.com.tw/jobs/search/?jobcat=2007001006&jobsource=joblist_search&area=6001008000&page=1",
+        "https://www.104.com.tw/jobs/search/?jobcat=2007001013&jobsource=joblist_search&area=6001008000&page=1",
+        "https://www.104.com.tw/jobs/search/?jobcat=2007002003&jobsource=joblist_search&area=6001008000&page=1",
+        "https://www.104.com.tw/jobs/search/?jobcat=2013001015&jobsource=joblist_search&area=6001008000&page=1",
+        "https://www.104.com.tw/jobs/search/?jobcat=2013001016&jobsource=joblist_search&area=6001008000&page=1",
     ]
 
     filenames = [
-        "資料工程師.csv",
-        # ... 其他檔案名稱 ...
+        # "台中市 - 全端工程師.csv",
+        # "台中市 - 系統分析師.csv",
+        # "台中市 - 其他資訊專業人員.csv",
+        # "台中市 - 前端工程師.csv",
+        # "台中市 - 後端工程師.csv",
+        "台中市 - 軟韌體測試工程師.csv",
+        "台中市 - 軟體工程師.csv",
+        "台中市 - 通訊軟體工程師.csv",
+        "台中市 - 測試人員.csv",
+        "台中市 - 資料工程師.csv",
+        "台中市 - 資料庫管理人員.csv",
+        "台中市 - 資訊助理.csv",
+        "台中市 - 資訊設備管制人員.csv",
+        "台中市 - 遊戲企劃.csv",
+        "台中市 - 電玩程式設計師.csv",
+        "台中市 - 演算法工程師.csv",
+        "台中市 - 網頁設計師.csv",
+        "台中市 - 網路管理工程師.csv",
+        "台中市 - AI工程師.csv",
+        "台中市 - Android工程師.csv",
+        "台中市 - Internet程式設計師.csv",
+        "台中市 - iOS工程師.csv",
+        "台中市 - MIS程式設計師.csv",
+        "台中市 - UI設計師.csv",
+        "台中市 - UX設計師.csv",
     ]
 
     # 依序爬取每個類別，每個類別之間加入較長的休息時間

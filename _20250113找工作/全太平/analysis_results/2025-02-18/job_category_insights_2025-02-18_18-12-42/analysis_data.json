@@ -1,0 +1,50 @@
+{
+  "軟體工程師": {
+    "C#": 17,
+    "SQL": 11,
+    "ASP.NET": 9,
+    "HTML": 7,
+    "PostgreSQL": 5,
+    "API": 5,
+    "MySQL": 4,
+    "PHP": 4,
+    "C++": 4,
+    "TCP/IP": 3,
+    "Git": 2,
+    "JavaScript": 2,
+    "Vue.js": 2
+  },
+  "UX 設計師": {
+    "Linux": 4,
+    "CSS": 2,
+    "JavaScript": 2,
+    "C++": 2,
+    "CI/CD": 2
+  },
+  "全端工程師": {
+    "C#": 2
+  },
+  "網頁設計師": {
+    "MySQL": 5,
+    "CSS": 3,
+    "HTML": 3,
+    "JavaScript": 3,
+    "Laravel": 3,
+    "PHP": 3,
+    "ASP.NET": 3,
+    "C#": 3,
+    "API": 3,
+    "Git": 2,
+    "SQL": 2
+  },
+  "UI 設計師": {
+    "Oracle": 2
+  },
+  "Android 工程師": {
+    "C#": 3
+  },
+  "AI 工程師": {
+    "C#": 2,
+    "C++": 2
+  }
+}

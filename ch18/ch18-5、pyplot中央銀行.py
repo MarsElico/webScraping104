@@ -9,7 +9,7 @@
 # len(dates) // 5 => 無條件進位
 # dates = numpy.arange(99)
 import my_pyplot
-from 爬蟲_OREILLY.read_csv import read_csv_to_list
+from py_爬蟲_OREILLY.read_csv import read_csv_to_list
 import numpy
 from matplotlib import pyplot
 

@@ -1,4 +1,4 @@
-# external_link = f'{url}{link["href"]}'
+# external_link = f'{webscraper}{link["href"]}'
 # print(external_link)
 # from requests.exceptions import InvalidURL
 # UnicodeEncodeError: 'ascii' codec can't encode characters in position 11-17: ordinal not in range(128)

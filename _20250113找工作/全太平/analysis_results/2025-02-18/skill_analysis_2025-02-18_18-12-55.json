@@ -1,0 +1,347 @@
+{
+  "total_jobs": 188,
+  "skill_pairs": [
+    {
+      "combination": [
+        "C#",
+        "軟體工程師"
+      ],
+      "count": 17,
+      "percentage": 9.04
+    },
+    {
+      "combination": [
+        "ASP.NET",
+        "C#"
+      ],
+      "count": 14,
+      "percentage": 7.45
+    },
+    {
+      "combination": [
+        "C#",
+        "SQL"
+      ],
+      "count": 11,
+      "percentage": 5.85
+    },
+    {
+      "combination": [
+        "SQL",
+        "軟體工程師"
+      ],
+      "count": 11,
+      "percentage": 5.85
+    },
+    {
+      "combination": [
+        "ASP.NET",
+        "SQL"
+      ],
+      "count": 9,
+      "percentage": 4.79
+    },
+    {
+      "combination": [
+        "ASP.NET",
+        "軟體工程師"
+      ],
+      "count": 9,
+      "percentage": 4.79
+    },
+    {
+      "combination": [
+        "MySQL",
+        "PHP"
+      ],
+      "count": 8,
+      "percentage": 4.26
+    },
+    {
+      "combination": [
+        "HTML",
+        "軟體工程師"
+      ],
+      "count": 7,
+      "percentage": 3.72
+    },
+    {
+      "combination": [
+        "CSS",
+        "JavaScript"
+      ],
+      "count": 5,
+      "percentage": 2.66
+    },
+    {
+      "combination": [
+        "C#",
+        "Git"
+      ],
+      "count": 5,
+      "percentage": 2.66
+    },
+    {
+      "combination": [
+        "MySQL",
+        "網頁設計師"
+      ],
+      "count": 5,
+      "percentage": 2.66
+    },
+    {
+      "combination": [
+        "PostgreSQL",
+        "軟體工程師"
+      ],
+      "count": 5,
+      "percentage": 2.66
+    },
+    {
+      "combination": [
+        "API",
+        "軟體工程師"
+      ],
+      "count": 5,
+      "percentage": 2.66
+    },
+    {
+      "combination": [
+        "MySQL",
+        "軟體工程師"
+      ],
+      "count": 4,
+      "percentage": 2.13
+    },
+    {
+      "combination": [
+        "PHP",
+        "軟體工程師"
+      ],
+      "count": 4,
+      "percentage": 2.13
+    },
+    {
+      "combination": [
+        "ASP.NET",
+        "HTML"
+      ],
+      "count": 4,
+      "percentage": 2.13
+    },
+    {
+      "combination": [
+        "C#",
+        "HTML"
+      ],
+      "count": 4,
+      "percentage": 2.13
+    },
+    {
+      "combination": [
+        "ASP.NET",
+        "Git"
+      ],
+      "count": 4,
+      "percentage": 2.13
+    },
+    {
+      "combination": [
+        "CSS",
+        "MySQL"
+      ],
+      "count": 4,
+      "percentage": 2.13
+    },
+    {
+      "combination": [
+        "CSS",
+        "PHP"
+      ],
+      "count": 4,
+      "percentage": 2.13
+    }
+  ],
+  "skill_triples": [
+    {
+      "combination": [
+        "ASP.NET",
+        "C#",
+        "SQL"
+      ],
+      "count": 9,
+      "percentage": 4.79
+    },
+    {
+      "combination": [
+        "ASP.NET",
+        "C#",
+        "軟體工程師"
+      ],
+      "count": 9,
+      "percentage": 4.79
+    },
+    {
+      "combination": [
+        "C#",
+        "SQL",
+        "軟體工程師"
+      ],
+      "count": 8,
+      "percentage": 4.26
+    },
+    {
+      "combination": [
+        "ASP.NET",
+        "SQL",
+        "軟體工程師"
+      ],
+      "count": 6,
+      "percentage": 3.19
+    },
+    {
+      "combination": [
+        "MySQL",
+        "PHP",
+        "軟體工程師"
+      ],
+      "count": 4,
+      "percentage": 2.13
+    },
+    {
+      "combination": [
+        "ASP.NET",
+        "C#",
+        "HTML"
+      ],
+      "count": 4,
+      "percentage": 2.13
+    },
+    {
+      "combination": [
+        "ASP.NET",
+        "HTML",
+        "軟體工程師"
+      ],
+      "count": 4,
+      "percentage": 2.13
+    },
+    {
+      "combination": [
+        "C#",
+        "HTML",
+        "軟體工程師"
+      ],
+      "count": 4,
+      "percentage": 2.13
+    },
+    {
+      "combination": [
+        "ASP.NET",
+        "C#",
+        "Git"
+      ],
+      "count": 4,
+      "percentage": 2.13
+    },
+    {
+      "combination": [
+        "CSS",
+        "JavaScript",
+        "MySQL"
+      ],
+      "count": 4,
+      "percentage": 2.13
+    },
+    {
+      "combination": [
+        "CSS",
+        "JavaScript",
+        "PHP"
+      ],
+      "count": 4,
+      "percentage": 2.13
+    },
+    {
+      "combination": [
+        "CSS",
+        "MySQL",
+        "PHP"
+      ],
+      "count": 4,
+      "percentage": 2.13
+    },
+    {
+      "combination": [
+        "JavaScript",
+        "MySQL",
+        "PHP"
+      ],
+      "count": 4,
+      "percentage": 2.13
+    },
+    {
+      "combination": [
+        "ASP.NET",
+        "HTML",
+        "SQL"
+      ],
+      "count": 3,
+      "percentage": 1.6
+    },
+    {
+      "combination": [
+        "C#",
+        "HTML",
+        "SQL"
+      ],
+      "count": 3,
+      "percentage": 1.6
+    },
+    {
+      "combination": [
+        "HTML",
+        "SQL",
+        "軟體工程師"
+      ],
+      "count": 3,
+      "percentage": 1.6
+    },
+    {
+      "combination": [
+        "ASP.NET",
+        "Git",
+        "SQL"
+      ],
+      "count": 3,
+      "percentage": 1.6
+    },
+    {
+      "combination": [
+        "C#",
+        "Git",
+        "SQL"
+      ],
+      "count": 3,
+      "percentage": 1.6
+    },
+    {
+      "combination": [
+        "CSS",
+        "HTML",
+        "JavaScript"
+      ],
+      "count": 3,
+      "percentage": 1.6
+    },
+    {
+      "combination": [
+        "CSS",
+        "HTML",
+        "Laravel"
+      ],
+      "count": 3,
+      "percentage": 1.6
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-# external_link = f'{url}{link["href"]}'
+# external_link = f'{webscraper}{link["href"]}'
 # print(external_link)
 # from requests.exceptions import InvalidURL
 # UnicodeEncodeError: 'ascii' codec can't encode characters in position 11-17: ordinal not in range(128)
@@ -62,4 +62,4 @@ url = "https://zh.wikipedia.org/zh-tw/【我推的孩子】"
 prefix = "https://zh.wikipedia.org"
 get_external_links(url)
 print(pages)
-# write_html_for_unittest("我推的孩子.html", url)
+# write_html_for_unittest("我推的孩子.html", webscraper)

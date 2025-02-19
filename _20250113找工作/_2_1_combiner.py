@@ -14,7 +14,7 @@ def process_csv(file_path):
         return None
 
     # 刪除指定欄位
-    df = df.drop(['web-scraper-order', 'web-scraper-start-url'], axis=1)
+    df = df.drop(['web-scraper-order', 'web-scraper-start-webscraper'], axis=1)
 
     # 合併內容欄位
     content_columns = ['content', 'other', 'tools', 'skill']

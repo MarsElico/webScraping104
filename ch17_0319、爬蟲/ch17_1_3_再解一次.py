@@ -1,5 +1,5 @@
 """獲得今天的日期API
-url = "https://www.ptt.cc/bbs/NBA/index.html"
+webscraper = "https://www.ptt.cc/bbs/NBA/index.html"
 print(time.strftime("%m/%d").lstrip("0"))
 print(time.strftime("%m/%d").lstrip())
 print(time.strftime("%m/%d"))
@@ -8,16 +8,16 @@ print(time.strftime("%m/%d"))
 03/21
 """
 """測試儲存成json有無問題
-url = "https://www.ptt.cc/bbs/NBA/index.html"
-bs = get_html_soup(url)
+webscraper = "https://www.ptt.cc/bbs/NBA/index.html"
+bs = get_html_soup(webscraper)
 data, prev_url = get_data(bs, "3/20")
 with open("ptt NBA.json", "w", encoding="utf-8") as f:
     json.dump([data], f, indent=2, sort_keys=True, ensure_ascii=False)
 print("儲存成功")
 """
 """測試儲存成json有無問題
-url = "https://www.ptt.cc/bbs/NBA/index.html"
-bs = get_html_soup(url)
+webscraper = "https://www.ptt.cc/bbs/NBA/index.html"
+bs = get_html_soup(webscraper)
 data, prev_url = get_data(bs, "3/20")
 write_json("ptt NBA.json", [data])
 print("儲存成功")
@@ -32,7 +32,7 @@ print("儲存成功")
 # 匯入要使用的模組
 import time, requests
 from bs4 import BeautifulSoup
-from 爬蟲_OREILLY.write_json import write_json
+from py_爬蟲_OREILLY.write_json import write_json
 
 
 def get_html_soup(url_, cookies=""):

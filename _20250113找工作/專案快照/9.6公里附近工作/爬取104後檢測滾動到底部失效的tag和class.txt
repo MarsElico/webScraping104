@@ -1,0 +1,5 @@
+job-list-pc__list w-100
+job-list-pc__list-items
+job-list-pc position-absolute bg-white
+w-100 min-w-auto pb-0 overflow-hidden
+summery p-4 position-relative overflow-hidden 找不到

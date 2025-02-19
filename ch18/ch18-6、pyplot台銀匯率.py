@@ -4,7 +4,7 @@ import pandas
 from matplotlib import pyplot
 
 import my_pyplot
-from 爬蟲_OREILLY.read_csv import read_csv_to_list
+from py_爬蟲_OREILLY.read_csv import read_csv_to_list
 
 # 載入資料
 data_nparr = numpy.array(read_csv_to_list("TW-money.csv", encoding="big5"))
