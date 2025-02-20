@@ -1,0 +1,83 @@
+{
+  "軟體工程師": {
+    "Python": 19,
+    "C#": 10,
+    "C++": 9,
+    "MySQL": 6,
+    "HTML": 6,
+    "JavaScript": 6,
+    "CSS": 6,
+    "ASP.NET": 4,
+    "PHP": 3,
+    "Javascript": 3,
+    "Oracle": 3,
+    "Node.js": 2,
+    "python": 2,
+    "Angular": 2
+  },
+  "AI 工程師": {
+    "Python": 11,
+    "Linux": 10,
+    "Git": 7,
+    "C++": 7,
+    "API": 6,
+    "AI": 6,
+    "AWS": 5,
+    "Azure": 5,
+    "GCP": 4,
+    "PostgreSQL": 4,
+    "Docker": 4,
+    "CSS": 3,
+    "JavaScript": 3,
+    "MySQL": 3,
+    "Node.js": 3
+  },
+  "UX 設計師": {
+    "Python": 9,
+    "Linux": 7,
+    "Git": 4,
+    "API": 4,
+    "Flask": 3,
+    "SQL": 3,
+    "C#": 3,
+    "CSS": 3,
+    "Django": 2,
+    "Docker": 2,
+    "MySQL": 2,
+    "PostgreSQL": 2,
+    "TCP/IP": 2
+  },
+  "全端工程師": {
+    "JavaScript": 7,
+    "Python": 5,
+    "Node.js": 4,
+    "MySQL": 4,
+    "Linux": 3,
+    "PHP": 3,
+    "Vue.js": 3,
+    "HTML": 3,
+    "Docker": 2,
+    "Git": 2,
+    "NoSQL": 2,
+    "PostgreSQL": 2,
+    "python": 2,
+    "AWS": 2,
+    "CI/CD": 2
+  },
+  "網頁設計師": {
+    "Python": 4,
+    "JavaScript": 3,
+    "API": 2,
+    "PHP": 2
+  },
+  "Android 工程師": {
+    "Kotlin": 5,
+    "Python": 5,
+    "C++": 2,
+    "MySQL": 2,
+    "Spring": 2
+  },
+  "軟韌體測試工程師": {
+    "Linux": 2
+  }
+}

@@ -1,0 +1,347 @@
+{
+  "total_jobs": 99,
+  "skill_pairs": [
+    {
+      "combination": [
+        "MySQL",
+        "Python"
+      ],
+      "count": 20,
+      "percentage": 20.2
+    },
+    {
+      "combination": [
+        "Python",
+        "軟體工程師"
+      ],
+      "count": 19,
+      "percentage": 19.19
+    },
+    {
+      "combination": [
+        "C#",
+        "Python"
+      ],
+      "count": 17,
+      "percentage": 17.17
+    },
+    {
+      "combination": [
+        "Linux",
+        "Python"
+      ],
+      "count": 16,
+      "percentage": 16.16
+    },
+    {
+      "combination": [
+        "C++",
+        "Python"
+      ],
+      "count": 15,
+      "percentage": 15.15
+    },
+    {
+      "combination": [
+        "JavaScript",
+        "Python"
+      ],
+      "count": 14,
+      "percentage": 14.14
+    },
+    {
+      "combination": [
+        "HTML",
+        "JavaScript"
+      ],
+      "count": 12,
+      "percentage": 12.12
+    },
+    {
+      "combination": [
+        "AI 工程師",
+        "Python"
+      ],
+      "count": 11,
+      "percentage": 11.11
+    },
+    {
+      "combination": [
+        "CSS",
+        "JavaScript"
+      ],
+      "count": 11,
+      "percentage": 11.11
+    },
+    {
+      "combination": [
+        "Git",
+        "Linux"
+      ],
+      "count": 11,
+      "percentage": 11.11
+    },
+    {
+      "combination": [
+        "C#",
+        "軟體工程師"
+      ],
+      "count": 10,
+      "percentage": 10.1
+    },
+    {
+      "combination": [
+        "AI 工程師",
+        "Linux"
+      ],
+      "count": 10,
+      "percentage": 10.1
+    },
+    {
+      "combination": [
+        "CSS",
+        "Python"
+      ],
+      "count": 9,
+      "percentage": 9.09
+    },
+    {
+      "combination": [
+        "PHP",
+        "Python"
+      ],
+      "count": 9,
+      "percentage": 9.09
+    },
+    {
+      "combination": [
+        "C#",
+        "C++"
+      ],
+      "count": 9,
+      "percentage": 9.09
+    },
+    {
+      "combination": [
+        "C++",
+        "軟體工程師"
+      ],
+      "count": 9,
+      "percentage": 9.09
+    },
+    {
+      "combination": [
+        "Python",
+        "UX 設計師"
+      ],
+      "count": 9,
+      "percentage": 9.09
+    },
+    {
+      "combination": [
+        "CSS",
+        "HTML"
+      ],
+      "count": 9,
+      "percentage": 9.09
+    },
+    {
+      "combination": [
+        "API",
+        "Python"
+      ],
+      "count": 8,
+      "percentage": 8.08
+    },
+    {
+      "combination": [
+        "HTML",
+        "Python"
+      ],
+      "count": 8,
+      "percentage": 8.08
+    }
+  ],
+  "skill_triples": [
+    {
+      "combination": [
+        "C#",
+        "Python",
+        "軟體工程師"
+      ],
+      "count": 9,
+      "percentage": 9.09
+    },
+    {
+      "combination": [
+        "CSS",
+        "HTML",
+        "JavaScript"
+      ],
+      "count": 9,
+      "percentage": 9.09
+    },
+    {
+      "combination": [
+        "MySQL",
+        "PHP",
+        "Python"
+      ],
+      "count": 7,
+      "percentage": 7.07
+    },
+    {
+      "combination": [
+        "C#",
+        "C++",
+        "Python"
+      ],
+      "count": 7,
+      "percentage": 7.07
+    },
+    {
+      "combination": [
+        "C++",
+        "Python",
+        "軟體工程師"
+      ],
+      "count": 7,
+      "percentage": 7.07
+    },
+    {
+      "combination": [
+        "Git",
+        "Linux",
+        "Python"
+      ],
+      "count": 7,
+      "percentage": 7.07
+    },
+    {
+      "combination": [
+        "Linux",
+        "MySQL",
+        "Python"
+      ],
+      "count": 7,
+      "percentage": 7.07
+    },
+    {
+      "combination": [
+        "Linux",
+        "PostgreSQL",
+        "Python"
+      ],
+      "count": 7,
+      "percentage": 7.07
+    },
+    {
+      "combination": [
+        "MySQL",
+        "Python",
+        "軟體工程師"
+      ],
+      "count": 6,
+      "percentage": 6.06
+    },
+    {
+      "combination": [
+        "Docker",
+        "Git",
+        "PostgreSQL"
+      ],
+      "count": 6,
+      "percentage": 6.06
+    },
+    {
+      "combination": [
+        "Docker",
+        "Linux",
+        "PostgreSQL"
+      ],
+      "count": 6,
+      "percentage": 6.06
+    },
+    {
+      "combination": [
+        "Docker",
+        "Linux",
+        "Python"
+      ],
+      "count": 6,
+      "percentage": 6.06
+    },
+    {
+      "combination": [
+        "Git",
+        "Linux",
+        "PostgreSQL"
+      ],
+      "count": 6,
+      "percentage": 6.06
+    },
+    {
+      "combination": [
+        "Linux",
+        "Python",
+        "UX 設計師"
+      ],
+      "count": 6,
+      "percentage": 6.06
+    },
+    {
+      "combination": [
+        "MySQL",
+        "PostgreSQL",
+        "Python"
+      ],
+      "count": 6,
+      "percentage": 6.06
+    },
+    {
+      "combination": [
+        "HTML",
+        "JavaScript",
+        "Python"
+      ],
+      "count": 6,
+      "percentage": 6.06
+    },
+    {
+      "combination": [
+        "C#",
+        "MySQL",
+        "Python"
+      ],
+      "count": 6,
+      "percentage": 6.06
+    },
+    {
+      "combination": [
+        "AI 工程師",
+        "Linux",
+        "Python"
+      ],
+      "count": 6,
+      "percentage": 6.06
+    },
+    {
+      "combination": [
+        "AWS",
+        "Azure",
+        "GCP"
+      ],
+      "count": 5,
+      "percentage": 5.05
+    },
+    {
+      "combination": [
+        "CSS",
+        "JavaScript",
+        "Python"
+      ],
+      "count": 5,
+      "percentage": 5.05
+    }
+  ]
+}

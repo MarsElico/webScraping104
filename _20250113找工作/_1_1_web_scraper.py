@@ -25,6 +25,14 @@ class JobScraper:
         self.driver = webdriver.Chrome(options=options)
         self.wait = WebDriverWait(self.driver, 10)
 
+    def _get_element_text(self, selector: str) -> str:
+        """安全地獲取元素文字內容"""
+        try:
+            element = self.driver.find_element(By.CSS_SELECTOR, selector)
+            return element.text.strip()
+        except NoSuchElementException:
+            return ""
+
     def scroll_to_bottom(self, scroll_pause_time=2):
         """滾動到頁面底部以加載更多內容"""
         last_height = self.driver.execute_script("return document.body.scrollHeight")
@@ -79,36 +87,11 @@ class JobScraper:
             # print(job_title)  # DEBUG: 測試用
 
             # 獲取各個部分的內容
-            try:
-                content = self.driver.find_element(By.CSS_SELECTOR, "p.mb-5").text
-            except NoSuchElementException:
-                content = ""
-
-            try:
-                types = self.driver.find_element(By.CSS_SELECTOR, "div.category-item").text
-            except NoSuchElementException:
-                types = ""
-
-            try:
-                other = self.driver.find_element(By.CSS_SELECTOR, "p.m-0").text
-            except NoSuchElementException:
-                other = ""
-
-            try:
-                tools = self.driver.find_element(
-                    By.CSS_SELECTOR,
-                    ".job-requirement-table div:nth-of-type(5) div.t3"
-                ).text
-            except NoSuchElementException:
-                tools = ""
-
-            try:
-                skill = self.driver.find_element(
-                    By.CSS_SELECTOR,
-                    ".job-requirement-table div:nth-of-type(6) div.t3"
-                ).text
-            except NoSuchElementException:
-                skill = ""
+            content = self._get_element_text("p.mb-5")
+            types = self._get_element_text("div.category-item")
+            other = self._get_element_text("p.m-0")
+            tools = self._get_element_text(".job-requirement-table div:nth-of-type(5) div.t3")
+            skill = self._get_element_text(".job-requirement-table div:nth-of-type(6) div.t3")
 
             return {
                 'job': job_title,

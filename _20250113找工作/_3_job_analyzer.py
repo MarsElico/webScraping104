@@ -93,7 +93,9 @@ def extract_keywords(text):
         'Deep Learning',
         'DevOps',
         'Agile',
-        'Scrum'
+        'Scrum',
+        'RESTful',
+        'AJAX'
     ]
 
     found_keywords = set()  # 使用集合避免重複

@@ -57,23 +57,19 @@ class Job104Scraper:
 
             # 定義要爬取的欄位及其對應的選擇器
             selectors = {
-                'job_title': 'h1',
-                'company': 'div.info-header-col a',
-                'job_category': 'div.job-requirement-table div:nth-of-type(1) div.t3',
-                'working_area': 'div.job-requirement-table div:nth-of-type(2) div.t3',
-                'experience': 'div.job-requirement-table div:nth-of-type(3) div.t3',
-                'education': 'div.job-requirement-table div:nth-of-type(4) div.t3',
+                'job': 'h1',
+                'content': 'p.mb-5',
+                'types': 'div.category-item',
+                'other': 'p.m-0',
                 'tools': 'div.job-requirement-table div:nth-of-type(5) div.t3',
                 'skill': 'div.job-requirement-table div:nth-of-type(6) div.t3',
-                'salary': 'div.salary',
-                'content': 'p.mb-5',
-                'other_requirements': 'div.job-requirement-table div:nth-of-type(7) div.t3'
+                'salary': 'p.mr-2',
+                'business_trip': 'div:nth-of-type(8) div.t3'
             }
 
             # 獲取所有欄位的值
             data = {
-                'job_url': url,
-                'crawl_time': datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                'job-href': url,
             }
 
             # 遍歷所有選擇器獲取數據
