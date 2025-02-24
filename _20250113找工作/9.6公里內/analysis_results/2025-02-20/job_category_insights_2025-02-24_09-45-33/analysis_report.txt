@@ -30,12 +30,12 @@ AI: 6次
 AWS: 5次
 Azure: 5次
 GCP: 4次
+PyTorch: 4次
 PostgreSQL: 4次
 Docker: 4次
 CSS: 3次
 JavaScript: 3次
 MySQL: 3次
-Node.js: 3次
 
 UX 設計師 類別的主要技能需求：
 --------------------------------------------------
@@ -52,6 +52,7 @@ Docker: 2次
 MySQL: 2次
 PostgreSQL: 2次
 TCP/IP: 2次
+RESTful: 2次
 
 全端工程師 類別的主要技能需求：
 --------------------------------------------------

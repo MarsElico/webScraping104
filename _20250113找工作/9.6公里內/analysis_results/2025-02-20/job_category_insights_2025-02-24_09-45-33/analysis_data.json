@@ -25,12 +25,12 @@
     "AWS": 5,
     "Azure": 5,
     "GCP": 4,
+    "PyTorch": 4,
     "PostgreSQL": 4,
     "Docker": 4,
     "CSS": 3,
     "JavaScript": 3,
-    "MySQL": 3,
-    "Node.js": 3
+    "MySQL": 3
   },
   "UX 設計師": {
     "Python": 9,
@@ -45,7 +45,8 @@
     "Docker": 2,
     "MySQL": 2,
     "PostgreSQL": 2,
-    "TCP/IP": 2
+    "TCP/IP": 2,
+    "RESTful": 2
   },
   "全端工程師": {
     "JavaScript": 7,

@@ -95,7 +95,19 @@ def extract_keywords(text):
         'Agile',
         'Scrum',
         'RESTful',
-        'AJAX'
+        'AJAX',
+        'Tableau',
+        'Power BI',
+        'scikit-learn',
+        'OpenCV',
+        'Matlab'
+        'TensorFlow',
+        'PyTorch',
+        'Keras'
+        'NLP',
+        'LLM',
+        'Vmware',
+        'e-commerce'
     ]
 
     found_keywords = set()  # 使用集合避免重複

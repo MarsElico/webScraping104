@@ -57,6 +57,7 @@ class EnhancedJobScraper(JobScraper):
 
             # 過濾掉重複的連結
             new_links = [link for link in job_links if link not in existing_links]
+            new_links = list(set(new_links))
             print(f"Found {len(new_links)} new jobs to scrape")
 
             # 批次處理
@@ -93,7 +94,7 @@ if __name__ == "__main__":
     # 使用與原始程式相同的 urls 和 filenames 列表
     urls = [
         # Ajax Restful
-        # "https://www.104.com.tw/jobs/search/?jobcat=2007000000&jobsource=joblist_search&area=6001008000&page=1&keyword=ajax&order=15"
+        "https://www.104.com.tw/jobs/search/?jobcat=2007000000&jobsource=joblist_search&area=6001008000&page=1&keyword=ajax&order=15"
         # "https://www.104.com.tw/jobs/search/?jobcat=2007000000&jobsource=joblist_search&area=6001008000&page=2&keyword=RESTful&order=15"
 
         # React.js
@@ -135,14 +136,14 @@ if __name__ == "__main__":
     ]
     filenames = [
         "台中市 - Ajax Restful.csv",
-        "台中市 - Ajax Restful.csv",
-        "台中市 - React.js.csv",
-        "台中市 - React.js.csv",
-        "台中市 - React.js.csv",
-        "台中市 - React.js.csv",
-        "台中市 - C#.csv",
-        "台中市 - C#.csv",
-        "台中市 - C#.csv",
+        # "台中市 - Ajax Restful.csv",
+        # "台中市 - React.js.csv",
+        # "台中市 - React.js.csv",
+        # "台中市 - React.js.csv",
+        # "台中市 - React.js.csv",
+        # "台中市 - C#.csv",
+        # "台中市 - C#.csv",
+        # "台中市 - C#.csv",
         # "台中市 - 全端工程師.csv",
         # "台中市 - 系統分析師.csv",
         # "台中市 - 其他資訊專業人員.csv",
@@ -186,7 +187,7 @@ if __name__ == "__main__":
     print(f"{end_time}爬取結束")
 
     # 計算耗時
-    duration = end_time - start_datetime
+    duration = end_datetime - start_datetime
     hours, remainder = divmod(duration.total_seconds(), 3600)
     minutes, seconds = divmod(remainder, 60)
     print(f"本次爬取耗時{int(hours)}時{int(minutes)}分{int(seconds)}秒")
